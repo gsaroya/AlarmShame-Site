@@ -1,22 +1,4 @@
-<!doctype html>
-<html>
-	<head>
-		<!--bootstrap-->
-		<meta lang="en">
-		<meta name="viewport" content="initial-scale = 1.0,maximum-scale = 1.0" />
-		<title>Header</title>
-		<link rel="stylesheet" href="css/normalize.css">
-		<link rel="stylesheet" href="css/bootstrap.min.css">
-		<script src="//code.jquery.com/jquery-1.10.2.js"></script>
-			<script> 
-			$(function(){
-			  $("#header").load("header.html"); 
-			  $("#footer").load("footer.html"); 
-			});
-		</script> 
-	</head>
-</script> 		
-	<head>
+<header>
 	<div id="header">
 		<nav class="navbar navbar-default">
 			<div class="containder-fluid">
@@ -39,8 +21,5 @@
 				</ul>
 			</div> 
 		</nav>
-		</div>
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-		<script src="js/bootstrap.min.js"></script>
-	</body>
-</html>
+	</div>
+</header>
