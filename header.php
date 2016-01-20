@@ -14,7 +14,7 @@
 				</div>
 
 
-				<ul class="nav navbar-nav">
+				<ul class="nav navbar-nav navbar-right">
 					<li class="active"><a href="./index.php">Home</a></li>
 					<li><a href="./shame.php">Shames</a></li>
 					<li><a href="./about.php">About</a></li>
