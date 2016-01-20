@@ -17,7 +17,7 @@
 				<ul class="nav navbar-nav navbar-right">
 					<li><a href="./index.php">Home</a></li>
 					<li><a href="./shame.php">Shames</a></li>
-					<li style="padding-right:10px;"><a href="./about.php">About</a></li>
+					<li style="padding-right:20px;"><a href="./about.php">About</a></li>
 				</ul>
 			</div> 
 		</nav>
