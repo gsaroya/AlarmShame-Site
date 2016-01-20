@@ -1,6 +1,6 @@
 <header>
 	<div id="header">
-		<nav class="navbar navbar-default">
+		<nav class="navbar navbar-inverse">
 			<div class="containder-fluid">
 				<div class="navbar-header">
 					<!-- # will be where our site will be-->
