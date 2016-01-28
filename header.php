@@ -15,11 +15,18 @@
 
 
 				<ul class="nav navbar-nav navbar-right">
-					<li><a href="./index.php">Home</a></li>
-					<li><a href="./shame.php">Shames</a></li>
-					<li style="padding-right:20px;"><a href="./about.php">About</a></li>
+					<li id="index"><a href="./index.php">Home</a></li>
+					<li id="shame"><a href="./shame.php">Shames</a></li>
+					<li id="about" style="padding-right:20px;"><a href="./about.php">About</a></li>
 				</ul>
 			</div> 
 		</nav>
 	</div>
 </header>
+<script type="text/javascript">
+	$(document).ready(function(){
+		var url = window.location;
+		
+
+	});
+</script>

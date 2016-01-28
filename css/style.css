@@ -1,0 +1,24 @@
+.body-paragraph{
+	font-family: 'Oxygen', sans-serif;
+	color: #ECECEA;
+}
+
+.page-header{
+	font-family: 'Bree Serif', serif;
+}
+
+body{
+	background-color: #558C89;
+}
+#footer{
+	font-family:"Comic Sans MS", cursive, sans-serif;
+}
+
+#shame-table thead{
+	font-family: 'Bree Serif', serif;
+	color: #ECECEA;
+}
+
+#shame-table tbody{
+	font-family: 'Oxygen', sans-serif;
+}
