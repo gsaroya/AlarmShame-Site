@@ -1,3 +1,4 @@
+
 <header>
 	<div id="header">
 		<nav class="navbar navbar-inverse">
@@ -13,12 +14,21 @@
 		            <a class="navbar-brand" href="./index.html">Alarm Shame</a>
 				</div>
 
-
 				<ul class="nav navbar-nav navbar-right">
-					<li id="index"><a href="./index.php">Home</a></li>
-					<li id="shame"><a href="./shame.php">Shames</a></li>
-					<li id="about" style="padding-right:20px;"><a href="./about.php">About</a></li>
+					<li id="index" class="
+						<?php if($currentPage == "index") echo "active"; ?>">
+						<a href="./index.php">Home</a>
+					</li>
+					<li id="shame" class="
+						<?php if($currentPage == "shame") echo "active"; ?>">
+						<a href="./shame.php">Shames</a>
+					</li>
+					<li id="about" style="padding-right:20px;" class="
+						<?php if($currentPage == "about") echo "active"; ?>">
+						<a href="./about.php">About</a>
+					</li>
 				</ul>
+
 			</div> 
 		</nav>
 	</div>

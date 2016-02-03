@@ -1,3 +1,6 @@
+<?php
+	$currentPage = "shame";
+?>
 <!DOCTYPE html>
 <html>
 	<head>

@@ -1,3 +1,6 @@
+<?php
+	$currentPage = "about";
+?>
 <!DOCTYPE html>
 <html>
 	<head>
