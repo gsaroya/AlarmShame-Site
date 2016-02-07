@@ -1,7 +1,8 @@
+<!--header too be called navbar-->
 <header>
 	<div id="header">
 		<nav class="navbar navbar-inverse">
-			<div class="containder-fluid">
+			<div class="container-fluid">
 				<div class="navbar-header">
 					<!-- # will be where our site will be-->
 					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navigationbar">
