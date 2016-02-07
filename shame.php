@@ -1,5 +1,29 @@
 <!-- The currentPage variable will tell the navbar which page is active-->
-<?php $currentPage = "shame"; ?>
+<?php 
+	$currentPage = "shame"; 
+	$servername = "localhost";
+	$username = "root";
+	$password = "potato";
+	$dbname = "SHAMES";
+
+	// Create connection
+	$conn = new mysqli($servername, $username, $password, $dbname);
+	// Check connection
+	if ($conn->connect_error) {
+    	die("Connection failed: " . $conn->connect_error);
+	} 
+	$sql = "SELECT name,shame,location FROM shames";
+	$result = $conn->query($sql);
+	if ($result->num_rows > 0) {
+	    // output data of each row
+	    while($row = $result->fetch_assoc()) {
+	        echo "Name: " . $row["name"]. " - Shame: " . $row["shame"]. " " . $row["location"]. "<br>";
+	    }
+	} else {
+	    echo "0 results";
+	}
+	$conn->close();
+?>
 <!DOCTYPE html>
 <html>
 	<head>
@@ -13,7 +37,7 @@
 			</div>
 			<div id="shame-table">
 				<table class="table table-striped table-hover">
-					<thead>
+					<!--thead>
 						<tr>
 							<th>Name</th>
 							<th>Shame</th>
@@ -26,7 +50,7 @@
 							<td>Slept for ever</td>
 							<td>Not here</td>
 						</tr>
-					</tbody>
+					</tbody-->
 				</table>
 			</div>
 		</div>
