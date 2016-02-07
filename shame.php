@@ -12,8 +12,6 @@
 	if ($conn->connect_error) {
     	die("Connection failed: " . $conn->connect_error);
 	} 
-	$sql = "SELECT name,shame,location FROM shames";
-	$result = $conn->query($sql);
 	/* ($result->num_rows > 0) {
 	    // output data of each row
 	    while($row = $result->fetch_assoc()) {
@@ -38,11 +36,13 @@
 			<div id="shame-table">
 				<table class="table table-striped table-hover">
 					<?php
+						$sql = "SELECT name,shame,location FROM shames";
+						$result = $conn->query($sql);
 					    while($row = $result->fetch_assoc()) {
 					    	echo "<tr>";
-	    				    echo "<th>" . $row["name"] . "<th>";
-	    				    echo "<th>" . $row["shame"] . "<th>";
-	    				    echo "<th>" . $row["location"] . "<th>";
+	    				    //echo "<th>" . $row["name"] . "<th>";
+	    				    //echo "<th>" . $row["shame"] . "<th>";
+	    				    //echo "<th>" . $row["location"] . "<th>";
 	    				    echo "</tr>"
 	    				}
 	    				$conn->close();
