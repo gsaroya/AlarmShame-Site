@@ -1,4 +1,3 @@
-
 <header>
 	<div id="header">
 		<nav class="navbar navbar-inverse">
@@ -13,7 +12,8 @@
 		            </button>
 		            <a class="navbar-brand" href="./index.php">Alarm Shame</a>
 				</div>
-
+				<!-- The currentPage variable is defined in the specific including this header-->
+				<!-- This will determine which nav button will have the 'active' class-->
 				<div class="collapse navbar-collapse" id="navigationbar">
 					<ul class="nav navbar-nav navbar-right">
 						<li id="index" class="
@@ -30,7 +30,7 @@
 						</li>
 					</ul>
 				</div>
-			</div> 
+			</div>
 		</nav>
 	</div>
 </header>
