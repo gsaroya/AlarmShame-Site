@@ -5,15 +5,6 @@
 	$username = "root";
 	$password = "potato";
 	$dbname = "SHAMES";
-
-	// Create connection
-	$conn = new mysqli($servername, $username, $password, $dbname);
-	// Check connection
-	if ($conn->connect_error) {
-    	die("Connection failed: " . $conn->connect_error);
-	} 
-	$sql = "SELECT name,shame,location FROM shames";
-	$result = $conn->query($sql);
 	/* ($result->num_rows > 0) {
 	    // output data of each row
 	    while($row = $result->fetch_assoc()) {
@@ -46,14 +37,22 @@
 					</thead>
 					<tbody>
 						<?php
+						    // Create connection
+								$conn = new mysqli($servername, $username, $password, $dbname);
+							// Check connection
+								if ($conn->connect_error) {
+							    	die("Connection failed: " . $conn->connect_error);
+								} 
+								$sql = "SELECT name,shame,location FROM shames";
+								$result = $conn->query($sql);
 						    while($row = $result->fetch_assoc()) {
 					    		echo "<tr>";
 	    				    	echo "<th>" . $row["name"] . "<th>";
 	    				    	echo "<th>" . $row["shame"] . "<th>";
 	    				    	echo "<th>" . $row["location"] . "<th>";
-	    				    	echo "</tr>"
+	    				    	echo "</tr>";
 	    					}
-	    					//$conn->close();
+	    					$conn->close();
 						?>
 					</tbody>
 				</table>
