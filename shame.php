@@ -47,9 +47,9 @@
 								$result = $conn->query($sql);
 						    while($row = $result->fetch_assoc()) {
 					    		echo "<tr>";
-	    				    	echo "<th>" . $row["name"] . "<th>";
-	    				    	echo "<th>" . $row["shame"] . "<th>";
-	    				    	echo "<th>" . $row["location"] . "<th>";
+	    				    	echo "<td>" . $row["name"] . "</td>";
+	    				    	echo "<td>" . $row["shame"] . "</td>";
+	    				    	echo "<td>" . $row["location"] . "</td>";
 	    				    	echo "</tr>";
 	    					}
 	    					$conn->close();
