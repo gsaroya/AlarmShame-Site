@@ -53,7 +53,7 @@
 	    				    	echo "<th>" . $row["location"] . "<th>";
 	    				    	echo "</tr>"
 	    					}
-	    					$conn->close();
+	    					//$conn->close();
 						?>
 					</tbody>
 				</table>
