@@ -14,7 +14,7 @@
 	} 
 	$sql = "SELECT name,shame,location FROM shames";
 	$result = $conn->query($sql);
-	if ($result->num_rows > 0) {
+	/* ($result->num_rows > 0) {
 	    // output data of each row
 	    while($row = $result->fetch_assoc()) {
 	        echo "Name: " . $row["name"]. " - Shame: " . $row["shame"]. " " . $row["location"]. "<br>";
@@ -22,7 +22,7 @@
 	} else {
 	    echo "0 results";
 	}
-	$conn->close();
+	$conn->close();*/
 ?>
 <!DOCTYPE html>
 <html>
@@ -37,7 +37,17 @@
 			</div>
 			<div id="shame-table">
 				<table class="table table-striped table-hover">
-					<!--thead>
+					<?php
+					    while($row = $result->fetch_assoc()) {
+					    	echo "<tr>";
+	    				    echo "<th>" . $row["name"] . "<th>";
+	    				    echo "<th>" . $row["shame"] . "<th>";
+	    				    echo "<th>" . $row["location"] . "<th>";
+	    				    echo "</tr>"
+	    				}
+	    				$conn->close();
+					?>
+					<thead>
 						<tr>
 							<th>Name</th>
 							<th>Shame</th>
@@ -45,12 +55,17 @@
 						</tr>
 					</thead>
 					<tbody>
-						<tr>
-							<td>Tony</td>
-							<td>Slept for ever</td>
-							<td>Not here</td>
-						</tr>
-					</tbody-->
+						<?php
+						    while($row = $result->fetch_assoc()) {
+					    		echo "<tr>";
+	    				    	echo "<th>" . $row["name"] . "<th>";
+	    				    	echo "<th>" . $row["shame"] . "<th>";
+	    				    	echo "<th>" . $row["location"] . "<th>";
+	    				    	echo "</tr>"
+	    					}
+	    					$conn->close();
+						?>
+					</tbody>
 				</table>
 			</div>
 		</div>
