@@ -7,3 +7,4 @@
 <link rel="stylesheet" href="css/bootstrap.min.css">
 <link rel="stylesheet" href="css/bootstrap-theme.min.css">
 <link rel="stylesheet" href="css/style.css">
+<script src="https://google-code-prettify.googlecode.com/svn/loader/run_prettify.js"></script>
