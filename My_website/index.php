@@ -1,4 +1,4 @@
-<?php $currentPage = "home"; ?>
+<?php $currentPage = "index"; ?>
 <!DOCTYPE html>
 <html>
 	<head>
