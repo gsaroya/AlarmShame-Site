@@ -7,6 +7,7 @@
 	</head>
 	<body>
 		<?php include("header.php");?>
+		<?php include("carousel.php");?>
 		<div id="inner" class="container">
 			<div class="text-center page-header">
 				<h1>Alarm Shame</h1>
