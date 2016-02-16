@@ -22,3 +22,7 @@ body{
 #shame-table tbody{
 	font-family: 'Oxygen', sans-serif;
 }
+.carousel{
+	max-width: 40%;
+	max-height: 50%;
+}
