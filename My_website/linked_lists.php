@@ -104,7 +104,17 @@ Node * insertOrder(int val, Node * list){
    }
 }
 				</code></pre>
-				
+				<p>Analysis: This will at worst only once through the entire list and thus making it linear time O(1). 
+				That is not bad because you are inserting, you do not want to look at the whole list over and over again because it would be redundant. 
+				However we can do better. In fact we can do alot better than this because this is really ugly code. The fact that we have to write an 
+				if statement to go along this code is really bad. An easier way to write the code is using a wrapper function that wraps around this piece of code. Here is the example:
+				<pre class="prettyprint lang-cpp text-left"><code class="language-cpp">
+Node * insertOrder(int val, Node * list){
+	return Node * insertOrderWrapper(val, list, list);
+}
+
+Node * insertOrderWrapper(int val, Node * list, Node * head)
+				</code></pre>
 			</div>
 		</div>
 
