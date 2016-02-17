@@ -22,6 +22,8 @@
 	</head>
 	<body>
 		<?php include("header.php");?>
+
+		
 		<div id="inner" class="container">
 			<div class="text-center page-header">
 				<p class="text-center">This is the shame page</p>
@@ -58,9 +60,11 @@
 				</table>
 			</div>
 		</div>
-		<div id="footer">
-			<p class="text-center">Alarm Shame, where 1 alarm will scare you to death</p>
-		</div>
+
+
+		<?php include("footer.php");?>
+
+
     	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 		<script src="js/bootstrap.min.js"></script>
 	</body>
