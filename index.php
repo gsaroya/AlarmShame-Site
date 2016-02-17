@@ -13,7 +13,7 @@
 			</div>
 			<?php include("carousel.php");?>
 			<div class="body-paragraph" align="right">
-				<p class="text-center">
+				<p class="text-right">
 					Ever wanted to make sure you will wake up? Well this is the app for you.
 				</p>
 			</div>
