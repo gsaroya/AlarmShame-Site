@@ -12,10 +12,18 @@
 			<div class="text-center page-header">
 				<h1>About</h1>
 			</div>
+
+			<div class="biography" id="tony">
+				<p>Tony's information</p>
+			</div>
+
+			<div class="biography" id="gagan">
+				<p>Gagan's information</p>
+			</div>
 		</div>
 
 		<?php include("footer.php");?>
-		
+
     	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 		<script src="js/bootstrap.min.js"></script>
 	</body>
