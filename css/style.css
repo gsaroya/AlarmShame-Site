@@ -44,8 +44,8 @@ body{
 }
 .biography img{
 	float: left;
-	height: 50px;
-	width: 50px;
+	height: 50%;
+	width: 50%;
 }
 .biography p{
 	float: right;
