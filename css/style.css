@@ -36,7 +36,9 @@ body{
 }
 #tony{
 	float: left;
+	width: 50%;
 }
 #gagan{
 	float: right;
+	width: 50%;
 }
