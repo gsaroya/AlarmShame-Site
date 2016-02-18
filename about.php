@@ -13,12 +13,13 @@
 				<h1>About</h1>
 			</div>
 
-			<div class="biography" id="tony">
-				<img src="./img/tony.jpg">
+			<div class="biography container" id="tony">
+				<img src="./img/tony.jpg" class="img-responsive img-circle">
 				<p>Tony's information</p>
 			</div>
 
-			<div class="biography" id="gagan">
+			<div class="biography container" id="gagan">
+				<img src="./img/gagan.jpg" class="img-responsive img-circle">
 				<p>Gagan's information</p>
 			</div>
 		</div>
