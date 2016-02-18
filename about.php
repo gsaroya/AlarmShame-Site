@@ -14,6 +14,7 @@
 			</div>
 
 			<div class="biography" id="tony">
+				<img src="./img/tony.jpg">
 				<p>Tony's information</p>
 			</div>
 
