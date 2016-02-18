@@ -42,3 +42,9 @@ body{
 	float: right;
 	width: 50%;
 }
+.biography img{
+	float: left;
+}
+.biography p{
+	float: right;
+}
