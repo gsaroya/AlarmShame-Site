@@ -32,9 +32,9 @@
 				<table class="table table-striped table-hover">
 					<thead>
 						<tr>
-							<th>Name</th>
-							<th>Shame</th>
-							<th>Location</th>
+							<th><a href="./shame.php?sort=name">Name</a></th>
+							<th><a href="./shame.php?sort=shame">Shame</a></th>
+							<th><a href="./shame.php?sort=location">Location</a></th>
 						</tr>
 					</thead>
 					<tbody>
