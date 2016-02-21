@@ -18,16 +18,8 @@
 				</p>
 			</div>
 		</div>
-
-
-
-
-		<div id="footer">
-			<p class="text-center">The Shame to start your day</p>
-		</div>
-
     	
-
+		<?php include("footer.php");?>
 
     	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 		<script src="js/bootstrap.min.js"></script>
