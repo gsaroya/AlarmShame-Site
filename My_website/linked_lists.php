@@ -156,8 +156,26 @@ Node * insertOrderWrapper(int val, Node * list){
         <pre class="prettyprint lang-cpp text-left"><code class="language-cpp">
 //Same function call with the same parameters :D
 Node * insertOrder(int val, Node * list){
-  
+   //Still need to check for an empty list or if the it is smaller than the rest of the list
+   if(list == NULL || val <= list->val ){
+      return new Node(val,list);
+   } else {
+     //Create a temporary list that points to the tail of the given list
+     //we will iterate through this rather than the original list
+     Node * tempList = list;
+     while (tempList->next != NULL){
+        if(tempList->next->val > val){
+           Node * newNode = new Node(val, tempList->next);
+           tempList->next = newNode;
+           break;
+        } else {
+           tempList = tempList->next;
+        }
+     }
+     return list;
+   }
 }
+        </code></pre>
 			</div>
 		</div>
 
