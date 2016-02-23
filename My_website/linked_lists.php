@@ -9,7 +9,7 @@
 
 		<!--Body paragraph-->
 		<div id="inner" class="container">
-      div class="list-group">
+      <div class="list-group">
         <a href="#intro" class="list-group-item">Intro</a>
         <a href="#insert" class="list-group-item">Insertion</a>
         <a href="#" class="list-group-item">Third item</a>
