@@ -56,8 +56,32 @@ int main(){
 
    //Creates a new node with the value of 2 and points to another node with the value of 3
    Node * node3 = new Node(2, new Node(3,NULL));
+
+   //REMEMBER TO DELETE YOUR MEMORY!!!!!!!!!!
+   delete node2;
+   delete node3->next;
+   delete node3;
 }
         </code></pre>
+        <p>Here is the wrapper for a linked list, you will see why we need it at the end of the insertion section</p>
+        <pre class="prettyprint lang-cpp text-left"><code class="language-cpp">
+class LinkedList{
+public:
+   Node * tail;
+   LinkedList():head(NULL){}
+   ~LinkedList(){
+      while(tail != NULL){
+         Node * newTail = tail->next;
+         delete tail;
+         tail = newTail;
+      }
+   }
+}
+        </code></pre>
+        <pre class="text-primary">In my definition, head also means last which also means you were the first to be added in the list
+        this is because when you are added first, you are at the head of the line, but the last person to see when you start from the back
+        like in a linked list. Thus tail also means first. This can be changed </pre>
+
         <div class="text-center page-header">
           <h1 id="insert">Insertion</h1>
         </div>
@@ -164,25 +188,30 @@ Node * insertOrderWrapper(int val, Node * list){
 //Same function call with the same parameters :D
 Node * insertOrder(int val, Node * list){
    //Still need to check for an empty list or if the it is smaller than the rest of the list
-   if(list == NULL || val <= list->val ){
+   if(list == NULL || val <= list->value ){
       return new Node(val,list);
    } else {
      //Create a temporary list that points to the tail of the given list
      //we will iterate through this rather than the original list
      Node * tempList = list;
-     while (tempList->next != NULL){
-        if(tempList->next->val > val){
+     while (true){
+        if(tempList->next->value > val){
            Node * newNode = new Node(val, tempList->next);
            tempList->next = newNode;
            break;
         } else {
            tempList = tempList->next;
+           if (tempList->next == NULL){
+              tempList->next = new Node(val,NULL);
+              break;
+           }
         }
      }
      return list;
    }
 }
         </code></pre>
+        <p> As you can see, there is no recursion and thus no extra memory is created because of a function call and is better than the previous function.</p>
 			</div>
 		</div>
 
