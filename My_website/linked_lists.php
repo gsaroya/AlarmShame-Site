@@ -9,8 +9,15 @@
 
 		<!--Body paragraph-->
 		<div id="inner" class="container">
+      div class="list-group">
+        <a href="#intro" class="list-group-item">Intro</a>
+        <a href="#insert" class="list-group-item">Insertion</a>
+        <a href="#" class="list-group-item">Third item</a>
+      </div>
+
+
 			<div class="text-center page-header">
-				<h1>Linked List</h1>
+				<h1 id="intro">Linked List</h1>
 			</div>
 			<div class="body-paragraph" class="text-left">
 				<p>
@@ -52,7 +59,7 @@ int main(){
 }
         </code></pre>
         <div class="text-center page-header">
-          <h1>Insertion</h1>
+          <h1 id="insert">Insertion</h1>
         </div>
         <p>
 Now lets say you want an insert function where you given the list and a value that you want to insert.Now lets say you want an insert function where you given the list and a value that you want to insert.
