@@ -68,7 +68,7 @@ int main(){
 class LinkedList{
 public:
    Node * tail;
-   LinkedList():head(NULL){}
+   LinkedList():tail(NULL){}
    ~LinkedList(){
       while(tail != NULL){
          Node * newTail = tail->next;
@@ -80,7 +80,7 @@ public:
         </code></pre>
         <pre class="text-primary">In my definition, head also means last which also means you were the first to be added in the list
         this is because when you are added first, you are at the head of the line, but the last person to see when you start from the back
-        like in a linked list. Thus tail also means first. This can be changed </pre>
+        like in a linked list. Thus tail also means first. It is really hard to explain so I will draw this out.</pre>
 
         <div class="text-center page-header">
           <h1 id="insert">Insertion</h1>
