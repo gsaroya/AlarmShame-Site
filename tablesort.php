@@ -5,19 +5,14 @@
 	if ($conn->connect_error) {
 		die("Connection failed: " . $conn->connect_error);
 	} 
-	$sql = "SELECT * FROM MyTable";
-
-	if ($_GET['sort'] == 'name')
-	{
-	    $sql .= " ORDER BY name";
-	}
-	elseif ($_GET['sort'] == 'shame')
-	{
-	    $sql .= " ORDER BY shame";
-	}
-	elseif ($_GET['sort'] == 'description')
-	{
-	    $sql .= " ORDER BY description";
+	$sql = "SELECT name,shame,location FROM shames";
+	$result = $conn->query($sql);
+    while($row = $result->fetch_assoc()) {
+		echo "<tr>";
+    	echo "<td>" . $row["name"] . "</td>";
+    	echo "<td>" . $row["shame"] . "</td>";
+    	echo "<td>" . $row["location"] . "</td>";
+    	echo "</tr>";
 	}
 	$conn->close();
-$>
+?>
