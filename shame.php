@@ -38,7 +38,7 @@
 						</tr>
 					</thead>
 					<tbody>					
-						<?php include("tablesort.php");?>
+						<!--<?php include("tablesort.php");?>-->
 						<?php
 						    // Create connection
 								$conn = new mysqli($servername, $username, $password, $dbname);
