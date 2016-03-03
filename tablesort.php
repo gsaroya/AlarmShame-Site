@@ -33,7 +33,7 @@
 	   $field="location";
 	}
 
-	$sql =  "SELECT name, shame, location FROM SHAMES ORDER BY $field $sort";
+	$sql = "SELECT name,shame,location FROM shames ORDER BY $field $sort";
 	$result = $conn->query($sql);
     while($row = $result->fetch_assoc()) {
 		echo "<tr>";
