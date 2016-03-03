@@ -29,17 +29,8 @@
 				<p class="text-center">This is the shame page</p>
 			</div>
 			<div id="shame-table">
-				<table class="table table-striped table-hover">
-					<thead>
-						<tr>
-							<th><a href="./shame.php?sorting='.$sort.'&field=name">Name</a></th>
-							<th><a href="./shame.php?sorting='.$sort.'&field=shame">Shame</a></th>
-							<th><a href="./shame.php?sorting='.$sort.'&field=location">Location</a></th>
-						</tr>
-					</thead>
-					<tbody>					
-						<?php include("tablesort.php");?>
-					</tbody>
+				<table class="table table-striped table-hover">			
+					<?php include("tablesort.php");?>
 				</table>
 			</div>
 		</div>

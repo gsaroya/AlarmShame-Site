@@ -35,6 +35,9 @@
 
 	$sql = "SELECT name,shame,location FROM shames ORDER BY $field $sort";
 	$result = $conn->query($sql);
+	echo'<thead><tr><th><a href="./shame.php?sorting='.$sort.'&field=name">Name</a></th>
+     <th><a href="./shame.php?sorting='.$sort.'&field=shame">Shame</a></th>
+<th><a href="./shame.php?sorting='.$sort.'&field=location">Location</a></th></tr><thead><tbody>';
     while($row = $result->fetch_assoc()) {
 		echo "<tr>";
     	echo "<td>" . $row["name"] . "</td>";
@@ -42,5 +45,6 @@
     	echo "<td>" . $row["location"] . "</td>";
     	echo "</tr>";
 	}
+	echo'</tbody>';
 	$conn->close();
 ?>
