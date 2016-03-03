@@ -5,6 +5,34 @@
 	if ($conn->connect_error) {
 		die("Connection failed: " . $conn->connect_error);
 	} 
+	$field='name';
+	$sort='ASC';
+	
+	if(isset($_GET['sorting']))
+	{
+		if($_GET['sorting']=='ASC')
+		{
+		$sort='DESC';
+		}
+		else
+		{
+		$sort='ASC';
+		}
+	}
+
+	if($_GET['field']=='name')
+	{
+	   $field = "name";
+	}
+	elseif($_GET['field']=='shame')
+	{
+	   $field = "shame";
+	}
+	elseif($_GET['field']=='location')
+	{
+	   $field="location";
+	}
+
 	$sql = "SELECT name,shame,location FROM shames";
 	$result = $conn->query($sql);
     while($row = $result->fetch_assoc()) {
