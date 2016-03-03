@@ -7,7 +7,7 @@
 	} 
 	$field='name';
 	$sort='ASC';
-	
+
 	if(isset($_GET['sorting']))
 	{
 		if($_GET['sorting']=='ASC')
@@ -33,7 +33,7 @@
 	   $field="location";
 	}
 
-	$sql = "SELECT name,shame,location FROM shames";
+	$sql =  "SELECT name, shame, location FROM SHAMES ORDER BY $field $sort";
 	$result = $conn->query($sql);
     while($row = $result->fetch_assoc()) {
 		echo "<tr>";
