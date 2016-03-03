@@ -15,7 +15,7 @@
 				<h1>Types of data structures that I know</h1>
 			</div>
 			<div class="body-paragraph">
-				 <div class="list-group">
+				<div class="list-group">
 				  <a href="./linked_lists.php" class="list-group-item">Linked lists</a>
 				  <a href="#" class="list-group-item">Second item</a>
 				  <a href="#" class="list-group-item">Third item</a>

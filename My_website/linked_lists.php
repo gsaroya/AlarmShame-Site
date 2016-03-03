@@ -211,7 +211,42 @@ Node * insertOrder(int val, Node * list){
    }
 }
         </code></pre>
-        <p> As you can see, there is no recursion and thus no extra memory is created because of a function call and is better than the previous function.</p>
+        <p> As you can see, there is no recursion and thus no extra memory is created because of a
+        function call and is better than the previous function.</p>
+        <p> The final way to insert is to insert it right at its head, in front of everyone else. Now the simple way to do this
+        is by iteratively checking to see if there is another instance ahead of itself, if there is, ask that instance, if not
+        then we are at the head. Here is the code:</p>
+        <pre class="prettyprint lang-cpp text-left"><code class="language-cpp">
+Node * insertFront(int val, Node * list){
+   //Create the new instance, next will always be null as it will be the new head
+   Node * newNode = new Node (val, NULL);
+
+   //Checks if the list is empty
+   if (list == NULL){
+      //Returns the new instance because there is only one
+      return newNode;
+   } else {
+      //If the list is not empty, find the head of the list
+
+      //First, create a temporary node that points to the head
+      Node * temp = list;
+
+      //Next Iterate through the list until it hits the head
+      while (temp->next != NULL){
+         temp = temp->next;
+      }
+
+      //Finally tell that head there will be something next to it thus creating the new head
+      temp->next = newNode;
+
+      //return the tail of the head
+      return list;
+   }
+}
+      </code></pre>
+      <p>Analysis: Time for this algorithm is O(n) as all you are going to each node in the list until you hit the head</p>
+      <p>This is an ok time for inserting at the head but we could do better. Think about it, the head will never change position,
+      so rather than looping through the entire list, why not just point directly at the head of the list and insert when needed</p>
 			</div>
 		</div>
 
