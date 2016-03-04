@@ -52,6 +52,7 @@ body{
 }
 th a:link{
 	color: white;
+	text-decoration: underline;
 }
 th a:visited{
 	color:white;
