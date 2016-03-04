@@ -50,3 +50,9 @@ body{
 .biography p{
 	float: right;
 }
+th a:link{
+	color: white;
+}
+th a:visited{
+	color:white;
+}
