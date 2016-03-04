@@ -29,7 +29,7 @@
 				<h1>This is the shame page</h1>
 			</div>
 			<div id="shame-table">
-				<table class="table table-striped table-hover table-bordered">			
+				<table class="table table-striped table-hover">			
 					<?php include("tablesort.php");?>
 				</table>
 			</div>
