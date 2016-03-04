@@ -26,7 +26,7 @@
 		
 		<div id="inner" class="container">
 			<div class="text-center page-header">
-				<p class="text-center">This is the shame page</p>
+				<h1>This is the shame page</h1>
 			</div>
 			<div id="shame-table">
 				<table class="table table-striped table-hover">			
