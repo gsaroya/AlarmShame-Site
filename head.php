@@ -5,6 +5,7 @@
 <link rel="stylesheet" href="css/normalize.css">
 <link rel="stylesheet" href="css/bootstrap.min.css">
 <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+<link rel="stylesheet" href="css/bootstrap.css">
 <link href='https://fonts.googleapis.com/css?family=Oxygen' rel='stylesheet' type='text/css'>
 <link href='https://fonts.googleapis.com/css?family=Bree+Serif' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" href="css/style.css">
