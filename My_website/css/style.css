@@ -10,6 +10,7 @@ li{
 
 ul.skills li{
 	display: block;
+	text-align: center;
 }
 
 header{
@@ -20,9 +21,7 @@ header{
 	ul.header-tabs li{
 		display:inline-flex;
 	}
-	ul.header-tabs{
-		text-align: center;
-	}
+
 	.header-title{
 		text-align: center;
 		padding-top: 5px;
