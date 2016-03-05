@@ -11,7 +11,9 @@ li{
 ul.sills li{
 	display: block;
 }
-
+#navigationbar{
+	width: 100%;
+}
 @media (max-width: 768px){
 	li.header-tab{
 		display: inline-flex;
