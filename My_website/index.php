@@ -21,28 +21,32 @@
 				<div class="container pLanguage">
 					<div class="proficient">
 						<p class="title">Proficient in:</p>
-						<ul>
-							<li>C++</li>
-							<li>Python</li>
-							<li>HTML/CSS</li>
-							<li>PHP</li>
-							<li>Scheme</li>
+						<ul class="list-group">
+							<li class="list-group-item">C++</li>
+							<li class="list-group-item">Java</li>
+							<li class="list-group-item">HTML/CSS</li>
+							<li class="list-group-item">Python</li>
+							<li class="list-group-item">Scheme</li>
 						</ul>
 					</div>
 					<div class="familiar">
 						<p class="title">Familiar with:</p>
-						<ul>
-							<li>Java</li>
-							<li>JavaScript</li>
-							<li>MySQL</li>
-							<li>Ruby on Rails</li>
-							<li>Objective-C</li>
+						<ul class="list-group">
+							<li class="list-group-item">JavaScript</li>
+							<li class="list-group-item">PHP</li>
+							<li class="list-group-item">MySQL</li>
+							<li class="list-group-item">Ruby on Rails</li>
+							<li class="list-group-item">Objective-C</li>
 						</ul>
 					</div>
 					<div class="technology">
-						<p class="title">Technologies worked with:</p>
-						<ul>
-							<li></li>
+						<p class="title">Technologies:</p>
+						<ul class="list-group">
+							<li class="list-group-item">Android Development</li>
+							<li class="list-group-item">Selenium</li>
+							<li class="list-group-item">Espresso</li>
+							<li class="list-group-item">Kif</li>
+							<li class="list-group-item">Earl Grey</li>
 						</ul>
 					</div>
 				</div>
