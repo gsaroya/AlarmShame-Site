@@ -39,6 +39,9 @@ header.header{
 	.header-nav{
 		float:right;
 	}
+	#inner{
+		clear:both;
+	}
 }
 
 
