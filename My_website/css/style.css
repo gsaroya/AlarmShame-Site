@@ -11,6 +11,7 @@ li{
 ul.skills li{
 	display: block;
 	text-align: center;
+	font-size: 18px;
 }
 
 header{
