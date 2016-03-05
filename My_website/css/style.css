@@ -40,6 +40,7 @@ header{
 	.header-nav{
 		float:right;
 		margin-top: 5px;
+		height: 100%;
 	}
 	ul.header-tabs li{
 		display: inline-flex;
