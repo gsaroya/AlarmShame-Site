@@ -21,15 +21,16 @@ header{
 	ul.header-tabs li{
 		display:inline-flex;
 	}
+	.header-title{
+		text-align: center;
+	}
 }
 
 @media (min-width: 768px) {
     ul.skills li{
 		display: inline-flex;
 	}
-	.header-title{
-		text-align: center;
-	}
+
 }
 
 
