@@ -2,3 +2,9 @@ body{
 	background-color: #FF7373;
 }
 
+@media only screen and (max-device-width: 480px){
+	body{
+		background-color: white;
+	}
+}
+

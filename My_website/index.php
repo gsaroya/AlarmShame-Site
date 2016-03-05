@@ -13,9 +13,17 @@
 				<h1>Tony (Chen) Zhang</h1>
 			</div>
 			<div class="body-paragraph">
-				<p class="text-center">
-					Hello, I am an aspiring Software Engineer / Entrepreneur from Toronto.
-				</p>
+				<div class="container profile">
+					<p class="text-center">
+						Hello, I am an aspiring Software Engineer / Entrepreneur from Toronto.
+					</p>
+				</div>
+				<div class="container pLanguage">
+					<div class="proficient">
+					</div>
+					<div class="technology">
+					</div>
+				</div>
 			</div>
 		</div>
 
