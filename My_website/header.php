@@ -1,6 +1,6 @@
 <header>
 	<div class="header-title">
-		<h1 class="text-center">
+		<h1>
 			<a href="./index.php">Tony Zhang</a>
 		</h1>
 	</div>
