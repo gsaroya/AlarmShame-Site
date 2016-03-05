@@ -37,12 +37,12 @@ header{
 	}
 	.header-nav{
 		float:right;
-		display: inline-flex;
 	}
 	header{
 		padding-left: 5px;
 		padding-right: 5px;
 		overflow: auto;
+		display: inline-flex;
 	}
 	#inner{
 		clear:both;
