@@ -3,8 +3,6 @@ body{
 }
 
 @media only screen and (max-device-width: 480px){
-	body{
-		background-color: white;
-	}
+	
 }
 
