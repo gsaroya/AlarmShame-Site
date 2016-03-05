@@ -12,12 +12,12 @@ ul.skills li{
 	display: block;
 }
 li.header-tab{
-	display: inline;
+	display: inline-flex;
 }
 
 @media (min-width: 768px) {
     ul.skills li{
-		display: inline;
+		display: inline-flex;
 	}
 	ul.nav li{
 		display: block;

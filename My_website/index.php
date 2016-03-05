@@ -8,12 +8,12 @@
 	<body>
 		<?php include("header.php");?>
 		<!--Body paragraph-->
-		<div id="inner" class="container">
+		<div id="inner" class="container-fluid">
 			<div class="text-center page-header">
 				<h1>Tony (Chen) Zhang</h1>
 			</div>
 			<div class="body-paragraph">
-				<div class="container profile">
+				<div class="container-fluid profile">
 					<p class="text-center">
 						Hello, I am an aspiring Software Engineer / Entrepreneur from Toronto.
 					</p>
