@@ -11,10 +11,16 @@ li{
 ul.skills li{
 	display: block;
 }
+ul.nav li{
+	display: inline;
+}
 
 @media (min-width: 680px) {
     ul.skills li{
 		display: inline;
+	}
+	ul.nav li{
+		display: block;
 	}
 }
 
