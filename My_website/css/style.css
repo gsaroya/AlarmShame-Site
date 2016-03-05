@@ -15,7 +15,7 @@ ul.nav li{
 	display: inline;
 }
 
-@media (min-width: 680px) {
+@media (min-width: 768px) {
     ul.skills li{
 		display: inline;
 	}
