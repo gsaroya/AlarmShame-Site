@@ -12,7 +12,7 @@ ul.skills li{
 	display: block;
 }
 
-@media screen and (min-width: 480px) {
+@media (min-width: 680px) {
     ul.skills li{
 		display: inline;
 	}
