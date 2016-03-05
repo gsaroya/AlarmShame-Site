@@ -12,6 +12,10 @@ ul.skills li{
 	display: block;
 }
 
+header{
+	background-color: #4C4635;
+}
+
 @media (max-width: 768px){
 	ul.header-tabs li{
 		display:inline-flex;
