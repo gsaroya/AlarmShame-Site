@@ -4,6 +4,10 @@ body{
 ul{
     list-style-type: none;
 }
+li{
+	text-rendering: optimizeLegibility;
+}
+
 @media screen and (min-width: 480px) {
     ul.skills li{
 		display: inline;
