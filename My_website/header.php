@@ -1,6 +1,8 @@
 <header>
 	<div class="header-title">
-		<h3><a class="text-center" href="./index.php">Tony Zhang</a></h3>
+		<h3 class="text-center">
+			<a href="./index.php">Tony Zhang</a>
+		</h3>
 	</div>
 	<div class="header-nav">
 		<ul class="header-tabs">
