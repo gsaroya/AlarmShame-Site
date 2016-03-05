@@ -3,7 +3,7 @@
 	<div class="header-title">
 		<a class="" href="./index.php">Tony Zhang</a>
 	</div>
-	<div class="container-fluid">
+	<div class="header-nav">
 		<ul class="header-tabs">
 			<li id="index" class="
 				<?php if($currentPage == "index") echo "active"; ?>">
