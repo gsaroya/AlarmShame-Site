@@ -1,4 +1,4 @@
-<?php $currentPage = "thankss"; ?>
+<?php $currentPage = "thanks"; ?>
  
 <!DOCTYPE html>
 <html>
