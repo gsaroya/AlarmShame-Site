@@ -8,28 +8,17 @@ li{
 	text-rendering: optimizeLegibility;
 }
 
-ul.sills li{
+ul.skills li{
 	display: block;
 }
-#navigationbar{
-	width: 100%;
-	margin-left: -15px;
-	margin-right: -15px;
-}
+
 @media (max-width: 768px){
-	li.header-tab{
-		display: inline-flex;
-		width: 33%;
-		text-align: center;
-	}
+
 }
 
 @media (min-width: 768px) {
     ul.skills li{
 		display: inline-flex;
-	}
-	li.header-tab{
-		display: block;
 	}
 }
 
