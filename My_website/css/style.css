@@ -8,14 +8,17 @@ li{
 	text-rendering: optimizeLegibility;
 }
 
-ul.skills li{
+ul.sills li{
 	display: block;
 }
-/*li.header-tab{
-	display: table-cell;
-	width: 33%;
-	text-align: center;
-}*/
+
+@media (max-width: 768px){
+	li.header-tab{
+		display: table-cell;
+		width: 33%;
+		text-align: center;
+	}
+}
 
 @media (min-width: 768px) {
     ul.skills li{
