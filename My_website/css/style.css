@@ -19,6 +19,7 @@ header{
 @media (max-width: 768px){
 	ul.header-tabs li{
 		display:inline-flex;
+		text-align: center;
 	}
 	.header-title{
 		text-align: center;
