@@ -11,11 +11,11 @@ li{
 ul.skills li{
 	display: block;
 }
-li.header-tab{
+/*li.header-tab{
 	display: table-cell;
 	width: 33%;
 	text-align: center;
-}
+}*/
 
 @media (min-width: 768px) {
     ul.skills li{
