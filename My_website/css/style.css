@@ -45,6 +45,7 @@ header{
 		display: inline-flex;
 		padding-top: 10px;
 		padding-bottom: 10px;
+		padding-right: 3px;
 		line-height: 20px;
 	}
 	header{
