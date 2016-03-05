@@ -23,6 +23,8 @@ header{
 	}
 	.header-title{
 		text-align: center;
+		padding-top: 5px;
+		padding-bottom: 5px;
 	}
 }
 
@@ -30,7 +32,9 @@ header{
     ul.skills li{
 		display: inline-flex;
 	}
-
+	.header-title{
+		padding-left: 10px;
+	}
 }
 
 
