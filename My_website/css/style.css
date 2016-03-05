@@ -12,7 +12,7 @@ ul.skills li{
 	display: block;
 }
 
-header{
+header.header{
 	background-color: #4C4635;
 	margin-top: -20px;
 }
