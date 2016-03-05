@@ -13,7 +13,9 @@ ul.skills li{
 }
 
 @media (max-width: 768px){
-
+	ul.header-tabs li{
+		display:inline-flex;
+	}
 }
 
 @media (min-width: 768px) {

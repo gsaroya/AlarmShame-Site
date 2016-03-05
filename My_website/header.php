@@ -3,8 +3,8 @@
 	<div class="header-title">
 		<a class="" href="./index.php">Tony Zhang</a>
 	</div>
-	<div class="header-tab">
-		<ul class="">
+	<div class="container-fluid">
+		<ul class="header-tabs">
 			<li id="index" class="
 				<?php if($currentPage == "index") echo "active"; ?>">
 				<a href="./index.php">Home</a>
