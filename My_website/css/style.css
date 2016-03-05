@@ -4,6 +4,12 @@ body{
 ul{
     list-style-type: none;
 }
+@media screen and (min-width: 480px) {
+    ul.skills li{
+		display: inline;
+	}
+}
+
 @media only screen and (max-device-width: 480px){
 
 }

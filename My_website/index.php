@@ -21,7 +21,7 @@
 				<div class="container pLanguage">
 					<div class="proficient">
 						<p class="title">Proficient in:</p>
-						<ul class="list-group text-center">
+						<ul class="list-group text-center skills">
 							<li class="list-group-item">C++</li>
 							<li class="list-group-item">Java</li>
 							<li class="list-group-item">HTML/CSS</li>
@@ -31,7 +31,7 @@
 					</div>
 					<div class="familiar">
 						<p class="title">Familiar with:</p>
-						<ul class="list-group text-center">
+						<ul class="list-group text-center skills">
 							<li class="list-group-item">JavaScript</li>
 							<li class="list-group-item">PHP</li>
 							<li class="list-group-item">MySQL</li>
@@ -41,7 +41,7 @@
 					</div>
 					<div class="technology">
 						<p class="title">Technologies:</p>
-						<ul class="list-group text-center">
+						<ul class="list-group text-center skills">
 							<li class="list-group-item">Android Development</li>
 							<li class="list-group-item">Selenium</li>
 							<li class="list-group-item">Espresso</li>
