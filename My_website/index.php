@@ -14,7 +14,7 @@
 			</div>
 			<div class="body-paragraph">
 				<p class="text-center">
-					Data structures
+					Hello, I am an aspiring Software Engineer / Entrepreneur from Toronto.
 				</p>
 			</div>
 		</div>
