@@ -1,4 +1,4 @@
-<header>
+<header class="header">
 	<div class="header-title">
 		<h1>
 			<a href="./index.php">Tony Zhang</a>
