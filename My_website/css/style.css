@@ -11,6 +11,8 @@ li{
 ul.skills li{
 	display: block;
 	text-align: center;
+}
+ul.header-tabs li{
 	font-size: 18px;
 }
 
