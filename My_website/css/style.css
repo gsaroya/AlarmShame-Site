@@ -19,6 +19,8 @@ header{
 @media (max-width: 768px){
 	ul.header-tabs li{
 		display:inline-flex;
+	}
+	ul.header-tabs{
 		text-align: center;
 	}
 	.header-title{
