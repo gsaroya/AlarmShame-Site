@@ -27,7 +27,7 @@ header{
     ul.skills li{
 		display: inline-flex;
 	}
-	.header-title h1{
+	.header-title{
 		text-align: center;
 	}
 }
