@@ -8,15 +8,15 @@
 	        <!--Possible tabs-->
 	        <div class="" id="navigationbar">
 	        	<ul class="nav navbar-nav navbar-right">
-	        		<li id="index" class="
+	        		<li id="index" class="header-tab
 						<?php if($currentPage == "index") echo "active"; ?>">
 						<a href="./index.php">Home</a>
 					</li>
-	        		<li id="data-structures" class="
+	        		<li id="data-structures" class="header-tab
 						<?php if($currentPage == "data-structures") echo "active"; ?>">
 	        			<a href="./data_structures.php">Data Structures</a>
 	        		</li>
-	        		<li id="thanks"  class="
+	        		<li id="thanks"  class="header-tab
 						<?php if($currentPage == "thanks") echo "active"; ?>">
 	        			<a href="./thanks.php">Thanks</a>
 	        		</li>

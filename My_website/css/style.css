@@ -11,7 +11,7 @@ li{
 ul.skills li{
 	display: block;
 }
-ul.nav li{
+li.header-tab{
 	display: inline;
 }
 
