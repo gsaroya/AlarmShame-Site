@@ -12,7 +12,7 @@ ul.skills li{
 	display: block;
 }
 li.header-tab{
-	display: inline-flex;
+	display: table-cell;
 	width: 33%;
 	text-align: center;
 	white-space: nowrap;
