@@ -1,8 +1,10 @@
 body{
 	background-color: #FF7373;
 }
-
+ul{
+    list-style-type: none;
+}
 @media only screen and (max-device-width: 480px){
-	
+
 }
 
