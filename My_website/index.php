@@ -31,7 +31,7 @@
 					</div>
 					<div class="familiar">
 						<p class="title">Familiar with:</p>
-						<ul class="list-group">
+						<ul class="list-group text-center">
 							<li class="list-group-item">JavaScript</li>
 							<li class="list-group-item">PHP</li>
 							<li class="list-group-item">MySQL</li>
@@ -41,7 +41,7 @@
 					</div>
 					<div class="technology">
 						<p class="title">Technologies:</p>
-						<ul class="list-group">
+						<ul class="list-group text-center">
 							<li class="list-group-item">Android Development</li>
 							<li class="list-group-item">Selenium</li>
 							<li class="list-group-item">Espresso</li>
