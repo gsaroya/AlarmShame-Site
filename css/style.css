@@ -29,12 +29,12 @@ body{
 	max-height: 50%;*/
 	height: 50%;
 	width: 50%;
-	position: relative;
+	position: fixed;
 }
 .index-paragraph{
 	float:right;
 	width:50%;
-	position: relative;
+	position: fixed;
 }
 
 .item{
