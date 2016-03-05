@@ -14,7 +14,7 @@ ul.sills li{
 
 @media (max-width: 768px){
 	li.header-tab{
-		display: table-cell;
+		display: inline-flex;
 		width: 33%;
 		text-align: center;
 	}
