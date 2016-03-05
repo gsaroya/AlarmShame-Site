@@ -14,6 +14,8 @@ ul.skills li{
 li.header-tab{
 	display: table-cell;
 	width: 33%;
+	text-align: center;
+	white-space: nowrap;
 }
 
 @media (min-width: 768px) {
