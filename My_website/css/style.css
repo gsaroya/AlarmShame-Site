@@ -22,7 +22,7 @@ li.header-tab{
     ul.skills li{
 		display: inline-flex;
 	}
-	ul.nav li{
+	li.header-tab{
 		display: block;
 	}
 }
