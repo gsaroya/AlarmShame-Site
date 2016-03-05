@@ -21,7 +21,7 @@
 				<div class="container pLanguage">
 					<div class="proficient">
 						<p class="title">Proficient in:</p>
-						<ul class="list-group">
+						<ul class="list-group text-center">
 							<li class="list-group-item">C++</li>
 							<li class="list-group-item">Java</li>
 							<li class="list-group-item">HTML/CSS</li>
