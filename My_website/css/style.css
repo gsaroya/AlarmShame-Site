@@ -33,9 +33,11 @@ header{
 	}
 	.header-title{
 		float: left;
+		margin-top: 5px;
 	}
 	.header-nav{
 		float:right;
+		margin-top: 5px;
 	}
 	ul.header-tabs li{
 		display: inline-flex;
