@@ -6,15 +6,15 @@
 	</div>
 	<div class="header-nav">
 		<ul class="header-tabs">
-			<li id="index" class="
+			<li id="experiences" class="
 				<?php if($currentPage == "experiences") echo "active"; ?>">
 				<a href="./experiences.php">Experiences</a>
 			</li>
-			<li id="data-structures" class="
+			<li id="projects" class="
 				<?php if($currentPage == "projects") echo "active"; ?>">
 				<a href="./projects.php">Projects</a>
 			</li>
-			<li id="thanks"  class="
+			<li id="notes"  class="
 				<?php if($currentPage == "notes") echo "active"; ?>">
 				<a href="./notes.php">Notes</a>
 			</li>
