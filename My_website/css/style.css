@@ -27,6 +27,7 @@ a.highlight:hover{
 
 header{
 	background-color: #4C4635;
+	font-weight: bold;
 }
 
 @media (max-width: 768px){
