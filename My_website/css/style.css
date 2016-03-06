@@ -64,8 +64,13 @@ header{
 }
 
 @media (min-width: 768px) {
+	ul.skills{
+		display: table;
+	}
     ul.skills li{
-		display: inline-flex;
+		display: table-cell;
+		width: 20%;
+		text-align: center;
 	}
 	.header-title{
 		float: left;
