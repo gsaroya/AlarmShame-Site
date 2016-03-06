@@ -24,6 +24,9 @@ a.highlight:hover{
 	color: #FA6900;
 	text-decoration: none;
 }
+li.active{
+	color: #FA6900;
+}
 
 header{
 	background-color: #4C4635;
