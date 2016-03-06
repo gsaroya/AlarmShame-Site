@@ -1,4 +1,4 @@
-<?php $currentPage = "data-structures"; ?>
+<?php $currentPage = "notes"; ?>
 <!DOCTYPE html>
 <html>
 	<head>

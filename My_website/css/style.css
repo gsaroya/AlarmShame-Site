@@ -35,6 +35,10 @@ li.active a.highlight{
 li.active{
 	background-color: #3c382a;
 }
+li.active:hover{
+	background-color: #3c382a;
+}
+
 
 header{
 	background-color: #4C4635;
