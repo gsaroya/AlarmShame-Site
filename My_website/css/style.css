@@ -20,7 +20,7 @@ a.highlight{
 	color: #F38630;
 }
 
-a.highlight{
+a.highlight:hover{
 	color: #FA6900;
 	text-decoration: none;
 }
