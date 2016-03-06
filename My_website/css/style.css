@@ -24,6 +24,7 @@ header{
 	ul.header-tabs{
 		display:table;
 		width: 100%;
+		padding-left: 0px;
 	}
 	ul.header-tabs li{
 		display:table-cell;
