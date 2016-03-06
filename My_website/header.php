@@ -7,16 +7,16 @@
 	<div class="header-nav">
 		<ul class="header-tabs">
 			<li id="index" class="
-				<?php if($currentPage == "index") echo "active"; ?>">
-				<a href="./index.php">Home</a>
+				<?php if($currentPage == "experience") echo "active"; ?>">
+				<a href="./experience.php">Experience</a>
 			</li>
 			<li id="data-structures" class="
-				<?php if($currentPage == "data-structures") echo "active"; ?>">
-				<a href="./data_structures.php">Data Structures</a>
+				<?php if($currentPage == "projects") echo "active"; ?>">
+				<a href="./projects.php">Projects</a>
 			</li>
 			<li id="thanks"  class="
-				<?php if($currentPage == "thanks") echo "active"; ?>">
-				<a href="./thanks.php">Thanks</a>
+				<?php if($currentPage == "notes") echo "active"; ?>">
+				<a href="./notes.php">Notes</a>
 			</li>
 		</ul>
 	</div>

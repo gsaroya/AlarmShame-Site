@@ -1,4 +1,5 @@
- <!DOCTYPE html>
+<?php $currentPage = "notes"; ?>
+<!DOCTYPE html>
 <html>
 	<head>
 		<?php include("head.php"); ?>
