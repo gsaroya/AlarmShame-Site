@@ -29,8 +29,10 @@ a.highlight:active{
 	text-decoration: none;
 }
 
-li.active{
+li.active a.highlight{
 	color: #FA6900;
+}
+li.active{
 	background-color: #817d71;
 }
 
