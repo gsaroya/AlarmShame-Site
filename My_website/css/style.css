@@ -20,7 +20,7 @@ a:link{
 	font-color: #F38630;
 }
 
-a:hover{
+ul.header-tabs li a:hover{
 	font-color: #FA6900;
 	text-decoration: none;
 }
