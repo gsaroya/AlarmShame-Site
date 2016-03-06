@@ -35,7 +35,7 @@ a.highlight:active{
 li.active a.highlight{
 	color: #FA6900;
 }
-li.active{
+li.active.header-tab{
 	border-bottom: 2px solid #FA6900;
 }
 li.header-tab:hover{
