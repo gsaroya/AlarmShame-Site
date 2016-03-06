@@ -9,3 +9,4 @@
 <link rel="stylesheet" href="css/bootstrap.css">
 <link rel="stylesheet" href="css/style.css">
 <script src="https://google-code-prettify.googlecode.com/svn/loader/run_prettify.js"></script>
+<meta name="theme-color" content="#A7DBD8">
