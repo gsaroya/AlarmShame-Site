@@ -87,6 +87,7 @@ header{
 	.header-nav{
 		float:right;
 		margin-top: 0px;
+		height: 100%;
 	}
 	ul.header-tabs{
 		margin-bottom: 0px;
