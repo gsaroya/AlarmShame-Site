@@ -66,6 +66,7 @@ header{
 @media (min-width: 768px) {
 	ul.skills{
 		display: table;
+		width: 100%;
 	}
     ul.skills li{
 		display: table-cell;
