@@ -64,11 +64,8 @@ header{
 }
 
 @media (min-width: 768px) {
-	ul.skills{
-		display: table;
-	}
     ul.skills li{
-		display: table-cell;
+		display: inline-flex;
 		text-align: center;
 		vertical-align: middle;
 		border-radius: 2px;
