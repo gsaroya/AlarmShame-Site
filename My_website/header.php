@@ -7,8 +7,8 @@
 	<div class="header-nav">
 		<ul class="header-tabs">
 			<li id="index" class="
-				<?php if($currentPage == "experience") echo "active"; ?>">
-				<a href="./experience.php">Experience</a>
+				<?php if($currentPage == "experiences") echo "active"; ?>">
+				<a href="./experiences.php">Experiences</a>
 			</li>
 			<li id="data-structures" class="
 				<?php if($currentPage == "projects") echo "active"; ?>">
