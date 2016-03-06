@@ -34,10 +34,10 @@ li.active a.highlight{
 	color: #FA6900;
 }
 li.active{
-	background-color: #3c382a;
+	border-bottom: 2px solid #FA6900;
 }
 li.header-tab:hover{
-	background-color: #3c382a;
+	border-bottom: 2px solid #FA6900;
 }
 
 header{
