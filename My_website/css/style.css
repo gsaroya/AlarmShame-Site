@@ -92,6 +92,7 @@ header{
 	}
 	ul.header-tabs{
 		margin-bottom: 0px;
+		vertical-align: middle;
 	}
 	ul.header-tabs li{
 		display: inline-flex;
