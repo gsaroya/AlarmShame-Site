@@ -12,9 +12,6 @@
 
 		<!--Body paragraph-->
 		<div id="inner" class="container">
-			<div class="text-center page-header">
-				<h1>Experiences</h1>
-			</div>
 			<div class="body-paragraph">
 				<p class="text-center">
 					
