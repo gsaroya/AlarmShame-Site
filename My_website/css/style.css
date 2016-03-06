@@ -28,6 +28,7 @@ header{
 	ul.header-tabs li{
 		display:table-cell;
 		width: 33%;
+		text-align: center;
 	}
 	.header-title{
 		text-align: center;
