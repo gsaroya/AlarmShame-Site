@@ -23,6 +23,7 @@ header{
 @media (max-width: 768px){
 	ul.header-tabs{
 		display:table;
+		width: 100%;
 	}
 	ul.header-tabs li{
 		display:table-cell;
