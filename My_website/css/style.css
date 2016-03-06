@@ -17,11 +17,11 @@ ul.header-tabs li{
 }
 
 a:link{
-	font-color: #F38630 !important;
+	color: #F38630;
 }
 
 a:hover{
-	font-color: #FA6900 !important;
+	color: #FA6900;
 	text-decoration: none;
 }
 
