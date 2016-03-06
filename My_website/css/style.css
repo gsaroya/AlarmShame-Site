@@ -20,6 +20,11 @@ a.highlight{
 	color: #F38630;
 }
 
+a.highlight{
+	color: #FA6900;
+	text-decoration: none;
+}
+
 a.highlight:active{
 	text-decoration: none;
 }
@@ -32,10 +37,7 @@ li.active{
 }
 li.header-tab:hover{
 	background-color: #3c382a;
-	color: #FA6900 !important;
-	text-decoration: none;
 }
-
 
 header{
 	background-color: #4C4635;
