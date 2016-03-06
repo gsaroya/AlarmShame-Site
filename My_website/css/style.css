@@ -90,8 +90,8 @@ header{
 	}
 	ul.header-tabs li{
 		display: inline-flex;
-		padding-top: 10px;
-		padding-bottom: 10px;
+		padding-top: 15px;
+		padding-bottom: 20px;
 		padding-right: 3px;
 		line-height: 20px;
 		height: 100%;
