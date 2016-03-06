@@ -86,7 +86,10 @@ header{
 	}
 	.header-nav{
 		float:right;
-		margin-top: 5px;
+		margin-top: 0px;
+	}
+	ul.header-tabs{
+		margin-bottom: 0px;
 	}
 	ul.header-tabs li{
 		display: inline-flex;
