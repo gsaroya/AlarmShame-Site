@@ -16,11 +16,11 @@ ul.header-tabs li{
 	font-size: 18px;
 }
 
-a:link{
+.highlight a{
 	color: #F38630;
 }
 
-a:hover{
+.highlight a:hover{
 	color: #FA6900;
 	text-decoration: none;
 }
