@@ -47,7 +47,7 @@
 	}
 	// fetch the page numbers
 	$limit = 10;
-	$result = mysql_query("select count(1) FROM shames;");
+	$result = $conn->query("select count(1) FROM shames;");
 	$row = mysql_fetch_array($result);
 	var_dump($result);
 	$total = $row[0];
