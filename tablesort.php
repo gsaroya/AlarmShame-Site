@@ -48,8 +48,7 @@
 	// fetch the page numbers
 	$limit = 10;
 	$result = $conn->query("select count(1) FROM shames;");
-	$row = mysql_fetch_array($result);
-	var_dump($result);
+	$row = $result->fetch_assoc()[0];
 	$total = $row[0];
 	$numPages = floor($total/$limit);
 	if ($total % $limit) {
