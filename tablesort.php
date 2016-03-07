@@ -4,7 +4,7 @@
 	// Check connection
 	if ($conn->connect_error) {
 		die("Connection failed: " . $conn->connect_error);
-	} 
+	}
 	$field='name';
 	$sort='ASC';
 
@@ -38,13 +38,23 @@
 	echo'<thead><tr><th><a href="./shame.php?sorting='.$sort.'&field=name">Name</a></th>
      <th><a href="./shame.php?sorting='.$sort.'&field=shame">Shame</a></th>
 <th><a href="./shame.php?sorting='.$sort.'&field=location">Location</a></th></tr><thead><tbody>';
-    while($row = $result->fetch_assoc()) {
+  while($row = $result->fetch_assoc()) {
 		echo "<tr>";
     	echo "<td>" . $row["name"] . "</td>";
     	echo "<td>" . $row["shame"] . "</td>";
     	echo "<td>" . $row["location"] . "</td>";
     	echo "</tr>";
 	}
+	// fetch the page numbers
+	$limit = 10;
+	$result = mysql_query("select count(1) FROM shames");
+	$row = mysql_fetch_array($result);
+	$total = $row[0];
+	$numPages = floor($total/$limit);
+	if ($total % $limit) {
+		++$numPages;
+	}
+	echo $numPages . " pages";
 	echo'</tbody>';
 	$conn->close();
 ?>
