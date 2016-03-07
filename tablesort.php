@@ -45,7 +45,7 @@
     	echo "<td>" . $row["location"] . "</td>";
     	echo "</tr>";
 	}
-	// fetch the page numbers
+	// fetch the page count
 	$limit = 10;
 	$result_count = $conn->query("select count(1) FROM shames;");
 	$total = 0;
@@ -53,12 +53,11 @@
 		$total = $row["count(1)"];
 	}
 	$numPages = floor($total/$limit);
-	if ($total % $limit) {
+	if (($total <= $limit) || ($total % $limit)) {
 		++$numPages;
 	}
 	echo $numPages . " pages";
-	echo $limit . " limit";
-	echo $total . " total";
+		
 	echo'</tbody>';
 	$conn->close();
 ?>
