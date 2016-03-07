@@ -55,6 +55,8 @@
 		++$numPages;
 	}
 	echo $numPages . " pages";
+	echo $limit . " limit";
+	echo $total . " total";
 	echo'</tbody>';
 	$conn->close();
 ?>
