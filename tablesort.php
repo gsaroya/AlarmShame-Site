@@ -49,6 +49,7 @@
 	$limit = 10;
 	$result = $conn->query("select count(1) FROM shames;");
 	$row = $result->fetch_assoc()[0];
+	echo $row;
 	$total = $row[0];
 	$numPages = floor($total/$limit);
 	if ($total % $limit) {
