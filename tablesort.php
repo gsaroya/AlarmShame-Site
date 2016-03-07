@@ -49,6 +49,7 @@
 	$limit = 10;
 	$result = mysql_query("select count(1) FROM shames");
 	$row = mysql_fetch_array($result);
+	var_dump($row);
 	$total = $row[0];
 	$numPages = floor($total/$limit);
 	if ($total % $limit) {
