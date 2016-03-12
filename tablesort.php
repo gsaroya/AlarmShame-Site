@@ -10,7 +10,7 @@
 	$field='name';
 	$sort='ASC';
 	$page = 1;
-
+/*
 	if(isset($_GET['sorting'])) {
 		$sort = mysql_real_escape_string($_GET['sorting']) == 'DESC' ? 'DESC' : 'ASC';
 	}
@@ -41,7 +41,7 @@
 		} ($page > $numPages) {
 			$page = $numPages;
 		}
-	}
+	}*/
 
 	$sql = "SELECT name,shame,location FROM shames ORDER BY $field $sort";
 	$result = $conn->query($sql);
@@ -58,7 +58,7 @@
     	echo "</tr>";
 	}
 
-	echo $numPages . " pages";
+	//echo $numPages . " pages";
 
 	echo'</tbody>';
 	$conn->close();
