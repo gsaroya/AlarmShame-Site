@@ -21,7 +21,7 @@
 			$field = 'name';
 		}
 	}
-/*
+
 	// fetch the page count
 	$limit = 10;
 	$result_count = $conn->query("select count(1) FROM shames;");
@@ -33,7 +33,7 @@
 	if (($total <= $limit) || ($total % $limit)) {
 		++$numPages;
 	}
-
+/*
 	if(isset($_GET['page'])) {
 		$page = ($_GET['page']);
 		if($page < 1 ) {
