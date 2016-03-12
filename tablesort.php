@@ -8,15 +8,17 @@
 
 	// The default sorting
 	$field='name';
-	$sort='DESC';
+	$current_sort='ASC';
+	$alt_sort='DESC';
 	$page = 1;
 
 	if(isset($_GET['sorting'])) {
-		$sort = mysql_real_escape_string($_GET['sorting']);
-		if ($sort != 'DESC' && $sort != 'ASC') {
-			$sort = 'ASC';
+		$current_sort = mysql_real_escape_string($_GET['sorting']);
+		if ($current_sort != 'ASC' && $current_sort != 'ASC') {
+			$current_sort = 'ASC';
 		}
 	}
+	$alt_sort = ($current_sort == 'ASC') ? 'DESC' : 'ASC';
 
 	if(isset($_GET['name'])) {
 		$field = mysql_real_escape_string($_GET['sorting']);
@@ -46,12 +48,12 @@
 		}
 	}
 	$offset = $limit * ($page - 1);
-	$sql = "SELECT name,shame,location FROM shames ORDER BY $field $sort LIMIT $limit OFFSET $offset";
+	$sql = "SELECT name,shame,location FROM shames ORDER BY $field $current_sort LIMIT $limit OFFSET $offset";
 	$result = $conn->query($sql);
 	echo'<thead>
-		<tr><th><a href="./shame.php?sorting='.$sort.'&field=name">Name</a></th>
-		<th><a href="./shame.php?sorting='.$sort.'&field=shame">Shame</a></th>
-		<th><a href="./shame.php?sorting='.$sort.'&field=location">Location</a></th></tr>
+		<tr><th><a href="./shame.php?sorting='.$alt_sort.'&field=name">Name</a></th>
+		<th><a href="./shame.php?sorting='.$alt_sort.'&field=shame">Shame</a></th>
+		<th><a href="./shame.php?sorting='.$alt_sort.'&field=location">Location</a></th></tr>
 	<thead><tbody>';
   while($row = $result->fetch_assoc()) {
 		echo "<tr>";
@@ -61,7 +63,8 @@
     	echo "</tr>";
 	}
 
-	echo $numPages . " pages";
+	echo $numPages . " pages<br>";
+	echo $current_sort . " sort";
 
 	echo'</tbody>';
 	$conn->close();
