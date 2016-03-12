@@ -1,6 +1,6 @@
 <!-- The currentPage variable will tell the navbar which page is active-->
-<?php 
-	$currentPage = "shame"; 
+<?php
+	$currentPage = "shame";
 	$servername = "localhost";
 	$username = "root";
 	$password = "potato";
@@ -23,16 +23,29 @@
 	<body>
 		<?php include("header.php");?>
 
-		
+
 		<div id="inner" class="container">
 			<div class="text-center page-header">
 				<h1>This is the shame page</h1>
 			</div>
 			<div id="shame-table">
-				<table class="table table-striped table-hover">			
+				<table class="table table-striped table-hover">
 					<?php include("tablesort.php");?>
 				</table>
 			</div>
+			<?php
+				echo 'Page: ';
+				if ($numPages <= 10) {
+					for ($i = 1; $i <= $numPages ; $i++) {
+					    echo '<a href="./shame.php?sorting='. $current_sort.'&field='.$field.'&page='.$i.'">'.$i.'</a>&nbsp;';
+					}
+				} else {
+					for ($i = 1; $i <= 10 ; $i++) {
+					    echo '<a href="./shame.php?sorting='. $current_sort.'&field='.$field.'&page='.$i.'">'.$i.'</a>&nbsp;';
+					}
+					echo '...&nbsp;<a href="./shame.php?sorting='. $current_sort.'&field='.$field.'&page='.$numPages.'">'.$numPages.'</a> ';
+				}
+			?>
 		</div>
 
 
