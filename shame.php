@@ -33,19 +33,27 @@
 					<?php include("tablesort.php");?>
 				</table>
 			</div>
-			<?php
-				echo 'Page: ';
-				if ($numPages <= 10) {
-					for ($i = 1; $i <= $numPages ; $i++) {
-					    echo '<a href="./shame.php?sorting='. $current_sort.'&field='.$field.'&page='.$i.'">'.$i.'</a>&nbsp;';
+			<ul class='pagination'>
+				<?php
+					$first = 1;
+					$last = 5;
+					if ($numPages < 5) {
+						$last = $numPages;
+					}	elseif ($page > 3 && $page < $numPages - 1) {
+						$first = $page - 2;
+						$last = $page + 2;
+					} elseif ($page >= $numPages - 1) {
+						$first = $numPages - 4;
+						$last = $numPages;
 					}
-				} else {
-					for ($i = 1; $i <= 10 ; $i++) {
-					    echo '<a href="./shame.php?sorting='. $current_sort.'&field='.$field.'&page='.$i.'">'.$i.'</a>&nbsp;';
+					$link_pre = '<a href="./shame.php?sorting='. $current_sort.'&field='.$field.'&page=';
+					echo '<li class="">'. $link_pre . '1>&laquo;</a></li>';
+					for ($i = $first; $i <= $last ; $i++) {
+					    echo '<li class="">'. $link_pre . $i . '>' . $i . '</a></li>';
 					}
-					echo '...&nbsp;<a href="./shame.php?sorting='. $current_sort.'&field='.$field.'&page='.$numPages.'">'.$numPages.'</a> ';
-				}
-			?>
+					echo '<li class="">'. $link_pre . $numPages . '>&raquo;</a></li>';
+				?>
+			</ul>
 		</div>
 
 
