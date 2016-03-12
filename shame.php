@@ -46,12 +46,13 @@
 						$first = $numPages - 4;
 						$last = $numPages;
 					}
+
 					$link_pre = '<a href="./shame.php?sorting='. $current_sort.'&field='.$field.'&page=';
-					echo '<li class="">'. $link_pre . '1">&laquo;</a></li>';
+					echo '<li class="' . (($page == 1) ? 'active' : '') . '">'. $link_pre . '1">&laquo;</a></li>';
 					for ($i = $first; $i <= $last ; $i++) {
-					    echo '<li class="">'. $link_pre . $i . '">' . $i . '</a></li>';
+					    echo '<li class="' . (($page == $i) ? 'active' : '') . '">' . $link_pre . $i . '">' . $i . '</a></li>';
 					}
-					echo '<li class="">'. $link_pre . $numPages . '">&raquo;</a></li>';
+					echo '<li class="' . (($page == $numPages) ? 'active' : '') . '">'. $link_pre . $numPages . '">&raquo;</a></li>';
 				?>
 			</ul>
 		</div>
