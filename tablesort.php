@@ -62,7 +62,10 @@
     	echo "<td>" . $row["location"] . "</td>";
     	echo "</tr>";
 	}
-
+	echo $field;
+	echo (($field == 'name') ? $alt_sort : 'ASC');
+	echo (($field == 'shame') ? $alt_sort : 'ASC');
+	echo (($field == 'location') ? $alt_sort : 'ASC');
 	echo'</tbody>';
 	$conn->close();
 ?>
