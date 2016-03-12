@@ -20,8 +20,8 @@
 	}
 	$alt_sort = ($current_sort == 'ASC') ? 'DESC' : 'ASC';
 
-	if(isset($_GET['name'])) {
-		$field = $_GET['name'];
+	if(isset($_GET['field'])) {
+		$field = $_GET['field'];
 		if($field != 'name' && $field != 'shame' && $field != 'location') {
 			$field = 'name';
 		}
