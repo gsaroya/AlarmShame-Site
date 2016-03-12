@@ -10,11 +10,11 @@
 	$field='name';
 	$sort='ASC';
 	$page = 1;
-/*
+
 	if(isset($_GET['sorting'])) {
 		$sort = mysql_real_escape_string($_GET['sorting']) == 'DESC' ? 'DESC' : 'ASC';
 	}
-
+/*
 	if(isset($_GET['name'])) {
 		$field = mysql_real_escape_string($_GET['sorting']);
 		if($field != 'name' || $field != 'shame' || $field != 'location') {
