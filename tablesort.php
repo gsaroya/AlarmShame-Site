@@ -14,14 +14,14 @@
 	if(isset($_GET['sorting'])) {
 		$sort = mysql_real_escape_string($_GET['sorting']) == 'DESC' ? 'DESC' : 'ASC';
 	}
-/*
+
 	if(isset($_GET['name'])) {
 		$field = mysql_real_escape_string($_GET['sorting']);
 		if($field != 'name' || $field != 'shame' || $field != 'location') {
 			$field = 'name';
 		}
 	}
-
+/*
 	// fetch the page count
 	$limit = 10;
 	$result_count = $conn->query("select count(1) FROM shames;");
