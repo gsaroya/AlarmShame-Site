@@ -51,9 +51,9 @@
 	$sql = "SELECT name,shame,location FROM shames ORDER BY $field $current_sort LIMIT $limit OFFSET $offset";
 	$result = $conn->query($sql);
 	echo'<thead>
-		<tr><th><a href="./shame.php?sorting='.$alt_sort.'&field=name">Name</a></th>
-		<th><a href="./shame.php?sorting='.$alt_sort.'&field=shame">Shame</a></th>
-		<th><a href="./shame.php?sorting='.$alt_sort.'&field=location">Location</a></th></tr>
+		<tr><th><a href="./shame.php?sorting='. (($field == 'name') ? $alt_sort : 'ASC') . '&field=name">Name</a></th>
+		<th><a href="./shame.php?sorting='. (($field == 'shame') ? $alt_sort : 'ASC') .'&field=shame">Shame</a></th>
+		<th><a href="./shame.php?sorting='. (($field == 'location') ? $alt_sort : 'ASC') .'&field=location">Location</a></th></tr>
 	<thead><tbody>';
   while($row = $result->fetch_assoc()) {
 		echo "<tr>";
