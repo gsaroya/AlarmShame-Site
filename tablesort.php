@@ -8,16 +8,19 @@
 
 	// The default sorting
 	$field='name';
-	$sort='ASC';
+	$sort='DESC';
 	$page = 1;
 
 	if(isset($_GET['sorting'])) {
-		$sort = mysql_real_escape_string($_GET['sorting']) == 'DESC' ? 'DESC' : 'ASC';
+		$sort = mysql_real_escape_string($_GET['sorting']);
+		if ($sort != 'DESC' && $sort != 'ASC') {
+			$sort = 'ASC';
+		}
 	}
 
 	if(isset($_GET['name'])) {
 		$field = mysql_real_escape_string($_GET['sorting']);
-		if($field != 'name' || $field != 'shame' || $field != 'location') {
+		if($field != 'name' && $field != 'shame' && $field != 'location') {
 			$field = 'name';
 		}
 	}
