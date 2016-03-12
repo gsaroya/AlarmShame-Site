@@ -42,7 +42,7 @@
 			$page = $numPages;
 		}
 	}
-	$offset = $limit*$page;
+	$offset = $limit * ($page - 1);
 	$sql = "SELECT name,shame,location FROM shames ORDER BY $field $sort LIMIT $limit OFFSET $offset";
 	$result = $conn->query($sql);
 	echo'<thead>
