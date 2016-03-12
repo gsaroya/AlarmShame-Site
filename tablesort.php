@@ -75,7 +75,8 @@
 		}
 	} else {
 		for ($i = 1; $i <= 10 ; $i++) {
-		    echo '<a href="./shame.php?sorting='. $current_sort.'&field='.$field.'&page='.$i.'">'.$i.'</a> ';
+		    echo $i;
+				echo '&nbsp;';
 		}
 		echo '<a href="./shame.php?sorting='. $current_sort.'&field='.$field.'&page='.$numPages.'">'.$numPages.'</a> ';
 	}
