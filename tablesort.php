@@ -58,7 +58,7 @@
     	echo "</tr>";
 	}
 
-	//echo $numPages . " pages";
+	echo $numPages . " pages";
 
 	echo'</tbody>';
 	$conn->close();
