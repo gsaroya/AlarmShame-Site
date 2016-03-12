@@ -13,7 +13,7 @@
 	$page = 1;
 
 	if(isset($_GET['sorting'])) {
-		$current_sort = mysql_real_escape_string($_GET['sorting']);
+		$current_sort = $_GET['sorting'];
 		if ($current_sort != 'ASC' && $current_sort != 'DESC') {
 			$current_sort = 'ASC';
 		}
@@ -21,7 +21,7 @@
 	$alt_sort = ($current_sort == 'ASC') ? 'DESC' : 'ASC';
 
 	if(isset($_GET['name'])) {
-		$field = mysql_real_escape_string($_GET['name']);
+		$field = $_GET['name'];
 		if($field != 'name' && $field != 'shame' && $field != 'location') {
 			$field = 'name';
 		}
