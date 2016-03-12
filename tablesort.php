@@ -68,4 +68,16 @@
 	echo (($field == 'location') ? $alt_sort : 'ASC');
 	echo'</tbody>';
 	$conn->close();
+	echo 'Page: ';
+	if ($numPages <= 10) {
+		for ($i = 1; $i <= $numPages ; $i++) {
+	    echo '<a href="./shame.php?sorting=$current_sort&field=$field&page=$i">$i</a> ';
+		}
+	} else {
+		for ($i = 1; $i <= 10 ; $i++) {
+		    echo '<a href="./shame.php?sorting=$current_sort&field=$field&page=$i">$i</a> ';
+		}
+		echo '... <a href="./shame.php?sorting=$current_sort&field=$field&page=$numPages">$numPages</a>';
+	}
+
 ?>
