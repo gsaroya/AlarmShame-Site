@@ -64,7 +64,7 @@
 	}
 
 	echo $numPages . " pages<br>";
-	echo $current_sort . " sort";
+	echo mysql_real_escape_string($_GET['sorting']) . " sort";
 
 	echo'</tbody>';
 	$conn->close();
