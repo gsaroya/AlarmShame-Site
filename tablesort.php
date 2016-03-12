@@ -42,8 +42,8 @@
 			$page = $numPages;
 		}
 	}
-
-	$sql = "SELECT name,shame,location FROM shames ORDER BY $field $sort LIMIT $limit OFFSET $limit * $page";
+	$offset = $limit*$page;
+	$sql = "SELECT name,shame,location FROM shames ORDER BY $field $sort LIMIT $limit OFFSET $offset";
 	$result = $conn->query($sql);
 	echo'<thead>
 		<tr><th><a href="./shame.php?sorting='.$sort.'&field=name">Name</a></th>
