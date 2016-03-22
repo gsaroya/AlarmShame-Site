@@ -14,4 +14,8 @@
 		padding-top: 5px;
 		padding-bottom: 5px;
 	}
+	.myListItem{
+		background-color: #E0E4CC;
+		border-radius: 2px;
+	}
 }
