@@ -1,0 +1,17 @@
+@media only screen and (max-width: 768px) and (min-width: 480px){
+	ul.header-tabs{
+		display:table;
+		width: 100%;
+		padding-left: 0px;
+	}
+	ul.header-tabs li{
+		display:table-cell;
+		width: 33%;
+		text-align: center;
+	}
+	.header-title{
+		text-align: center;
+		padding-top: 5px;
+		padding-bottom: 5px;
+	}
+}
