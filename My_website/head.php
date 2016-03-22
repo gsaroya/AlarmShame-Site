@@ -8,5 +8,7 @@
 <link rel="stylesheet" href="css/bootstrap-theme.min.css">
 <link rel="stylesheet" href="css/bootstrap.css">
 <link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/phone.css">
+<link rel="stylesheet" href="css/web.css">
 <script src="https://google-code-prettify.googlecode.com/svn/loader/run_prettify.js"></script>
 <meta name="theme-color" content="#A7DBD8">
