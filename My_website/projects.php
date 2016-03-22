@@ -14,7 +14,7 @@
 		<div id="inner" class="container">
 			<div class="myList">
 				<div class="myListItem">
-					<div class="myListTitle">
+					<div class="myListTitle text-center">
 						<h3>Discover</h3>
 					</div>
 					<div class="myListSummary">
