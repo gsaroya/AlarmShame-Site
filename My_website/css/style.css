@@ -47,6 +47,6 @@ header{
 	font-weight: bold;
 }
 
-.myListItem > .myListTitle > h3{
+.myListItem > .myListTitle > h2{
 	color: #0EBFE9;
 }

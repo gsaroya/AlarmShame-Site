@@ -15,7 +15,7 @@
 			<div class="myList">
 				<div class="myListItem">
 					<div class="myListTitle text-center">
-						<h3>Discover</h3>
+						<h2>Discover</h2>
 					</div>
 					<div class="myListSummary">
 						<ul>
@@ -31,8 +31,8 @@
 					</div>
 				</div>
 				<div class="myListItem">
-					<div class="myListTitle">
-						AlarmShame
+					<div class="myListTitle text-center">
+						<h2>AlarmShame</h2>
 					</div>
 					<div class="myListSummary">
 						<ul>
