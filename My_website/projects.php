@@ -15,7 +15,7 @@
 			<div class="myList">
 				<div class="myListItem">
 					<div class="myListTitle">
-						Discover
+						<h3>Discover</h3>
 					</div>
 					<div class="myListSummary">
 						<ul>

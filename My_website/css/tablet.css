@@ -15,8 +15,7 @@
 		padding-bottom: 5px;
 	}
 	.myListItem{
-		/*-moz-border-radius: 15px;*/
 		background-color: #E0E4CC;
-		border-radius: 15px;
+		border-radius: 5px;
 	}
 }

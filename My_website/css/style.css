@@ -46,3 +46,7 @@ header{
 	background-color: #4C4635;
 	font-weight: bold;
 }
+
+.myListItem > .myListTitle > h3{
+	color: #4C4635;
+}
