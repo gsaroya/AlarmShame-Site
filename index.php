@@ -1,4 +1,4 @@
-<!-- The currentPage variable will tell the navbar which page is active-->
+<!-- sThe currentPage variable will tell the navbar which page is active-->
 <?php $currentPage = "index"; ?>
 <!DOCTYPE html>
 <html>
