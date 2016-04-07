@@ -49,6 +49,7 @@ header{
 
 .myListItem > .myListTitle > h2{
 	color: #0EBFE9;
+	margin-left:10px;
 }
 
 .myList > div.myListItem{

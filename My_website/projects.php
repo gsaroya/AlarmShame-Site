@@ -34,7 +34,7 @@
 					</div>
 				</div>
 				<div class="myListItem" id="AlarmShame">
-					<div class="myListTitle text-center">
+					<div class="myListTitle">
 						<h2>AlarmShame</h2>
 					</div>
 					<div class="myListSummary">
