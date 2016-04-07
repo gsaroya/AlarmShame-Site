@@ -11,7 +11,7 @@
 
 
 		<!--Body paragraph-->
-		<div id="inner" class="container">
+		<div id="inner">
 			<div class="myList">
 				<div class="myListItem">
 					<div class="myListTitle text-center">
