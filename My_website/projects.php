@@ -38,13 +38,13 @@
 						<h2>AlarmShame</h2>
 					</div>
 					<div class="myListSummary">
-						<ul class="things-used">
+						<ul>
 							<li>Did this</li>
 							<li>Did That</li>
 						</ul>
 					</div>
 					<div class="myListLanguages">
-						<ul>
+						<ul class="things-used">
 							<li>Android Studios</li>
 							<li>Java</li>
 						</ul>
