@@ -50,3 +50,7 @@ header{
 .myListItem > .myListTitle > h2{
 	color: #0EBFE9;
 }
+
+.myList > myListItem{
+	background-color: #E0E4CC;
+}
