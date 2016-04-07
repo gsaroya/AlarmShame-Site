@@ -50,7 +50,7 @@ header{
 .myListItem > .myListTitle > h2{
 	color: #0EBFE9;
 	margin-left:15px;
-	margin-top:10px;
+	padding-top:15px;
 }
 
 .myList > div.myListItem{
