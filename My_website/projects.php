@@ -30,7 +30,7 @@
 						</ul>
 					</div>
 					<div class="outside-links">
-						<a href="http://www.discoverthis.xyz">Discover</a>
+						<a href="http://www.discoverthis.xyz" class="text-center">Discover</a>
 					</div>
 				</div>
 				<div class="myListItem">
