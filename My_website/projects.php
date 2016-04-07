@@ -13,7 +13,7 @@
 		<!--Body paragraph-->
 		<div id="inner">
 			<div class="myList">
-				<div class="myListItem">
+				<div class="myListItem" id="Discover">
 					<div class="myListTitle text-center">
 						<h2>Discover</h2>
 					</div>
@@ -33,7 +33,7 @@
 						<a href="http://www.discoverthis.xyz" class="text-center">Discover</a>
 					</div>
 				</div>
-				<div class="myListItem">
+				<div class="myListItem" id="AlarmShame">
 					<div class="myListTitle text-center">
 						<h2>AlarmShame</h2>
 					</div>

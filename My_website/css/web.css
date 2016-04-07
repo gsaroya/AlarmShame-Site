@@ -54,14 +54,17 @@
 	}
 
 	.myList > div.myListItem{
-		display: inline-flex;
-		text-align: center;
-		vertical-align: middle;
 		border-radius: 3px;
 		box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.3);
 		margin-left: 5px;
 		margin-right: 5px;
 		font-size: 18px;
+	}
+	#Discover{
+		float:left;
+	}
+	#AlarmShame{
+		float:right;
 	}
 }
 
