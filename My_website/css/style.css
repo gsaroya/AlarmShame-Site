@@ -59,3 +59,7 @@ header{
 	font-size: 18px;
 	width:98%;
 }
+
+.myList > div.myListItem > div.myListSummary > ul{
+	list-style-type: circle;
+}
