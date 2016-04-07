@@ -19,15 +19,18 @@
 					</div>
 					<div class="myListSummary">
 						<ul>
-							<li>Did this</li>
+							<li>Connected multiple</li>
 							<li>Did That</li>
 						</ul>
 					</div>
 					<div class="myListLanguages">
-						<ul>
+						<ul class="things-used">
 							<li>Firebase</li>
 							<li>Pebble</li>
 						</ul>
+					</div>
+					<div class="outside-links">
+						<a href="http://www.discoverthis.xyz">Discover</a>
 					</div>
 				</div>
 				<div class="myListItem">
@@ -35,16 +38,18 @@
 						<h2>AlarmShame</h2>
 					</div>
 					<div class="myListSummary">
-						<ul>
+						<ul class="things-used">
 							<li>Did this</li>
 							<li>Did That</li>
 						</ul>
 					</div>
 					<div class="myListLanguages">
 						<ul>
-							<li>Firebase</li>
-							<li>Pebble</li>
+							<li>Android Studios</li>
+							<li>Java</li>
 						</ul>
+					</div>
+					<div class="outside-links">
 					</div>
 				</div>
 			</div>
