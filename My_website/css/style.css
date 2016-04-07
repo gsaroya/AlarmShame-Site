@@ -65,3 +65,11 @@ header{
 .myList > div.myListItem > div.myListSummary > ul{
 	list-style-type: circle;
 }
+
+.myListLanguages > ul.things-used{
+	display:inline-flex;
+}
+
+ul.things-used > li {
+	background-color: #0EBFE9;
+}

@@ -23,14 +23,14 @@
 							<li>Did That</li>
 						</ul>
 					</div>
+					<div class="outside-links">
+						<a href="http://www.discoverthis.xyz" class="text-center">Discover</a>
+					</div>
 					<div class="myListLanguages">
 						<ul class="things-used">
 							<li>Firebase</li>
 							<li>Pebble</li>
 						</ul>
-					</div>
-					<div class="outside-links">
-						<a href="http://www.discoverthis.xyz" class="text-center">Discover</a>
 					</div>
 				</div>
 				<div class="myListItem" id="AlarmShame">
