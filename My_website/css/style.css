@@ -84,4 +84,7 @@ div.outside-links{
 
 div.outside-links > h3{
 	margin: auto;
+	padding-right: 5px;
+	padding-left: 5px;
+	margin-bottom: 3px;
 }
