@@ -81,3 +81,7 @@ ul.things-used > li {
 div.outside-links{
 	display: inline-flex;
 }
+
+div.outside-links > h3{
+	margin: auto;
+}
