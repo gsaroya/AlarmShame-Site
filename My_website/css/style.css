@@ -66,6 +66,10 @@ header{
 	list-style-type: circle;
 }
 
+div.myList > div.myListLogo{
+	float:right;
+}
+
 ul.things-used > li {
 	background-color: #0EBFE9;
 	display: inline-flex;

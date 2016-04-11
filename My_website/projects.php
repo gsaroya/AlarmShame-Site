@@ -34,6 +34,9 @@
 							<li>Pebble</li>
 						</ul>
 					</div>
+					<div class="myListLogo">
+						<img src="img/logo.png">
+					</div>
 				</div>
 				<div class="myListItem" id="AlarmShame">
 					<div class="myListTitle">
