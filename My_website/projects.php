@@ -24,7 +24,7 @@
 						</ul>
 					</div>
 					<div class="outside-links">
-						<a href="http://www.discoverthis.xyz" class="text-center">Discover</a>
+						<h3><a href="http://www.discoverthis.xyz" class="text-center">Discover</a></h3>
 
     					<h3><a href="https://github.com/tzhang995/WearHacks_2016"><i class="fa fa-github-square"></i> GitHub</a></h3>
 					</div>
