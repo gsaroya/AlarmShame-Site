@@ -13,4 +13,5 @@
 <link rel="stylesheet" href="css/tablet.css">
 <script src="https://google-code-prettify.googlecode.com/svn/loader/run_prettify.js"></script>
 <script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js'></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 <meta name="theme-color" content="#A7DBD8">
