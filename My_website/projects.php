@@ -41,22 +41,26 @@
 					</div>
 				</div>
 				<div class="myListItem" id="AlarmShame">
-					<div class="myListTitle">
-						<h2>AlarmShame</h2>
+					<div class="myListText">
+						<div class="myListTitle">
+							<h2>AlarmShame</h2>
+						</div>
+						<div class="myListSummary">
+							<ul>
+								<li>Did this</li>
+								<li>Did That</li>
+							</ul>
+						</div>
+						<div class="myListLanguages">
+							<ul class="things-used">
+								<li>Android Studios</li>
+								<li>Java</li>
+							</ul>
+						</div>
+						<div class="outside-links">
+						</div>
 					</div>
-					<div class="myListSummary">
-						<ul>
-							<li>Did this</li>
-							<li>Did That</li>
-						</ul>
-					</div>
-					<div class="myListLanguages">
-						<ul class="things-used">
-							<li>Android Studios</li>
-							<li>Java</li>
-						</ul>
-					</div>
-					<div class="outside-links">
+					<div class="myListLogo">
 					</div>
 				</div>
 			</div>
