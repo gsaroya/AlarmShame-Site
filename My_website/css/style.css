@@ -66,10 +66,10 @@ header{
 	list-style-type: circle;
 }
 
-div.myList > div.myListLogo{
+div.myList > div.myListItem > div.myListLogo{
 	float:right;
 }
-div.myList > div.myListText{
+div.myList > div.myListItem > div.myListText{
 	float:left;
 }
 
