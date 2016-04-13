@@ -60,6 +60,7 @@ header{
 	margin: 0 auto;
 	font-size: 18px;
 	width:98%;
+	clear:both;
 }
 
 .myList > div.myListItem > div.myListSummary > ul{
@@ -67,10 +68,10 @@ header{
 }
 
 div.myList > div.myListItem > div.myListLogo{
-	align:right;
+	float:right;
 }
 div.myList > div.myListItem > div.myListText{
-	align:left;
+	float:left;
 }
 
 ul.things-used > li {
