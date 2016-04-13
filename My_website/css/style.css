@@ -61,6 +61,7 @@ header{
 	font-size: 18px;
 	width:98%;
 	clear:both;
+	overflow: auto;
 }
 
 .myList > div.myListItem > div.myListSummary > ul{
@@ -84,7 +85,6 @@ ul.things-used > li {
 	margin-left: 5px;
 	margin-right: 5px;
 	font-size: 18px;
-	overflow: auto;
 }
 
 div.outside-links{
