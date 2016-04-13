@@ -67,10 +67,10 @@ header{
 }
 
 div.myList > div.myListItem > div.myListLogo{
-	float:right;
+	align:right;
 }
 div.myList > div.myListItem > div.myListText{
-	float:left;
+	align:left;
 }
 
 ul.things-used > li {
