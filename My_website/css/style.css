@@ -84,6 +84,7 @@ ul.things-used > li {
 	margin-left: 5px;
 	margin-right: 5px;
 	font-size: 18px;
+	overflow: auto;
 }
 
 div.outside-links{
