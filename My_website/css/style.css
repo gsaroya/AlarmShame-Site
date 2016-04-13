@@ -69,6 +69,9 @@ header{
 div.myList > div.myListLogo{
 	float:right;
 }
+div.myList > div.myListText{
+	float:left;
+}
 
 ul.things-used > li {
 	background-color: #0EBFE9;
