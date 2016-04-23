@@ -19,10 +19,7 @@
 							<h2>Discover</h2>
 						</div>
 						<div class="myListSummary">
-							<ul>
-								<li>Connected multiple</li>
-								<li>Did That</li>
-							</ul>
+							<p>A pebble smart watch application that alerts the user when you are getting closer to your target destination.</p>
 						</div>
 						<div class="outside-links">
 							<h4><a href="http://www.discoverthis.xyz" class="text-center">Discover</a></h4>
@@ -46,10 +43,7 @@
 							<h2>AlarmShame</h2>
 						</div>
 						<div class="myListSummary">
-							<ul>
-								<li>Did this</li>
-								<li>Did That</li>
-							</ul>
+							<p>An Android application that deletes your file and publically shames you if you were late from your alarm</p>
 						</div>
 						<div class="myListLanguages">
 							<ul class="things-used">
