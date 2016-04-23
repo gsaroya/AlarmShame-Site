@@ -25,9 +25,9 @@
 							</ul>
 						</div>
 						<div class="outside-links">
-							<h3><a href="http://www.discoverthis.xyz" class="text-center">Discover</a></h3>
+							<h4><a href="http://www.discoverthis.xyz" class="text-center">Discover</a></h4>
 
-	    					<h3><a href="https://github.com/tzhang995/WearHacks_2016"><i class="fa fa-github-square"></i> GitHub</a></h3>
+	    					<h4><a href="https://github.com/tzhang995/WearHacks_2016"><i class="fa fa-github-square"></i> GitHub</a></h4>
 						</div>
 						<div class="myListLanguages">
 							<ul class="things-used">
