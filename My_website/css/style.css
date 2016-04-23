@@ -52,6 +52,10 @@ header{
 	margin-left:15px;
 }
 
+.myListItem > .myListText > .myListSummary{
+	margin-left: 15px;
+}
+
 .myList > div.myListItem{
 	background-color: #E0E4CC;
 	border-radius: 3px;
@@ -94,7 +98,6 @@ div.outside-links{
 
 div.outside-links > h4{
 	margin: auto;
-	padding-right: 10px;
-	padding-left: 10px;
+	padding-left: 15px;
 	margin-bottom: 3px;
 }
