@@ -49,11 +49,11 @@ header{
 
 .myListItem > .myListText > .myListTitle > h2{
 	color: #0EBFE9;
-	margin-left:15px;
+	margin-left:40px;
 }
 
 .myListItem > .myListText > .myListSummary{
-	margin-left: 15px;
+	margin-left: 40px;
 }
 
 .myList > div.myListItem{
@@ -93,10 +93,10 @@ ul.things-used > li {
 
 div.outside-links{
 	display: inline-flex;
+	margin-left: 40px;
 }
 
 div.outside-links > h4{
 	margin: auto;
-	padding-left: 15px;
 	margin-bottom: 3px;
 }
