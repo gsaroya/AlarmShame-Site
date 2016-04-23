@@ -92,9 +92,9 @@ div.outside-links{
 	display: inline-flex;
 }
 
-div.outside-links > h3{
+div.outside-links > h4{
 	margin: auto;
-	padding-right: 5px;
-	padding-left: 5px;
+	padding-right: 10px;
+	padding-left: 10px;
 	margin-bottom: 3px;
 }
