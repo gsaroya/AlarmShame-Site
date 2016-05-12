@@ -84,8 +84,12 @@ ul.things-used > li {
 	vertical-align: middle;
 	border-radius: 3px;
 	box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.3);
-	margin-left: 10px;
+	margin-right: 10px;
 	font-size: 18px;
+}
+
+ul.things-used{
+	padding-left: 0px;
 }
 
 div.outside-links{
