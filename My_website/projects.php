@@ -13,7 +13,7 @@
 		<!--Body paragraph-->
 		<div id="inner">
 			<div class="myList">
-				<div class="myListItem" id="Discover">
+				<div class="myListItem container-fluid" id="Discover">
 					<div class="myListText">
 						<div class="myListTitle">
 							<h2>Discover</h2>
@@ -37,7 +37,7 @@
 						<img src="img/logo.png">
 					</div>
 				</div>
-				<div class="myListItem" id="AlarmShame">
+				<div class="myListItem container-fluid" id="AlarmShame">
 					<div class="myListText">
 						<div class="myListTitle">
 							<h2>AlarmShame</h2>
@@ -45,13 +45,16 @@
 						<div class="myListSummary">
 							<p>An Android application that deletes your file and publically shames you if you were late from your alarm</p>
 						</div>
+						<div class="outside-links">
+							<h4><a href="http://devpost.com/software/alarm-shaming" class="text-center">Alarm Shame</a></h4>
+
+	    					<h4><a href="https://github.com/tzhang995/Alarm-Clock"><i class="fa fa-github-square"></i> GitHub</a></h4>
+						</div>
 						<div class="myListLanguages">
 							<ul class="things-used">
 								<li>Android Studios</li>
 								<li>Java</li>
 							</ul>
-						</div>
-						<div class="outside-links">
 						</div>
 					</div>
 					<div class="myListLogo">
