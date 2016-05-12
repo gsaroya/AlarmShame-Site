@@ -55,8 +55,8 @@
 							</div>
 							<div class="myListLanguages">
 								<ul class="things-used">
-									<li>Android Studios</li>
-									<li>Java</li>
+									<li>Python</li>
+									<li>BASH</li>
 								</ul>
 							</div>
 						</div>
