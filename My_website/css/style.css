@@ -49,12 +49,8 @@ header{
 
 .myListItem > .myListText > .myListTitle > h2{
 	color: #0EBFE9;
-	margin-left:50px;
 }
 
-.myListItem > .myListText > .myListSummary{
-	margin-left: 50px;
-}
 
 .myList > div.myListItem{
 	background-color: #E0E4CC;
@@ -78,6 +74,7 @@ div.myList > div.myListItem > div.myListLogo{
 }
 div.myList > div.myListItem > div.myListText{
 	float:left;
+
 }
 
 ul.things-used > li {
@@ -93,7 +90,6 @@ ul.things-used > li {
 
 div.outside-links{
 	display: inline-flex;
-	margin-left: 50px;
 }
 
 div.outside-links > h4{
