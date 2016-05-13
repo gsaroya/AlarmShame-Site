@@ -49,7 +49,9 @@ header{
 }
 
 .myListItem > .myListText > .myListTitle > h2{
-	color: #0EBFE9;
+	color: #4C4635;
+	font-size: 32px;
+	font-weight: 700;
 }
 
 
@@ -106,8 +108,8 @@ div.outside-links > h4{
 
 p.title{
 	color: #4C4635;
-	font-size: 32px;
-	font-weight: 700;
+	font-size: 20px;
+	font-weight: bolder;
 }
 
 div.profile{
