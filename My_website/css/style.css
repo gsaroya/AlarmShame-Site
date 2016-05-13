@@ -109,3 +109,8 @@ p.title{
 	font-size: 20px;
 	font-weight: bolder;
 }
+
+div.profile{
+	box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.3);
+	background: #0EBFE9 none repeat scroll 0% 0%;
+}
