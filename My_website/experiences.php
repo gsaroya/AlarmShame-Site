@@ -13,7 +13,7 @@
 		<!--Body paragraph-->
 		<div id="inner" class="container">
 			<div class="myList">
-				<div class="myListItem">
+				<div class="myListItem container-fluid">
 					<div class="row">
 						<div class="myListTitle">
 							Agile Test Engineer
@@ -23,7 +23,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="myListItem">
+				<div class="myListItem container-fluid">
 					<div class="row">
 						<div class="myListTitle">
 							Top 5 at Wearhacks 2016
@@ -33,7 +33,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="myListItem">
+				<div class="myListItem container-fluid">
 					<div class="row">
 						<div class="myListTitle">
 							Google Games 2016 Participant
@@ -43,7 +43,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="myListItem">
+				<div class="myListItem container-fluid">
 					<div class="row">
 						<div class="myListTitle">
 							Google Code Jam 2016 Participant
