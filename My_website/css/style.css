@@ -54,6 +54,12 @@ div.myListTitle{
 	font-weight: 700;
 }
 
+div.myListTime{
+	color: #4C4635;
+	font-size: 20px;
+	font-weight: 600;
+}
+
 
 .myList > div.myListItem{
 	background-color: #E0E4CC;
