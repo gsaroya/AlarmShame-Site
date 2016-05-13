@@ -48,7 +48,7 @@ header{
 	font-weight: bold;
 }
 
-.myListItem > .myListText > .myListTitle > h2{
+.myListItem > .myListText > .myListTitle{
 	color: #4C4635;
 	font-size: 32px;
 	font-weight: 700;

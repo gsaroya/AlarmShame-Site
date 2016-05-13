@@ -17,7 +17,7 @@
 					<div class="row">
 						<div class="myListText col-sm-9 col-md-9 col-lg-9">
 							<div class="myListTitle">
-								<h2>Discover</h2>
+								Discover
 							</div>
 							<div class="myListSummary">
 								<p>A pebble smart watch application that alerts the user when you are getting closer to your target destination.</p>
@@ -43,7 +43,7 @@
 					<div class="row">
 						<div class="myListText col-sm-9 col-md-9 col-lg-9">
 							<div class="myListTitle">
-								<h2>AlarmShame</h2>
+								AlarmShame
 							</div>
 							<div class="myListSummary">
 								<p>An Android application that deletes your file and publically shames you if you were late from your alarm</p>
