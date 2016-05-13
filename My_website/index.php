@@ -11,11 +11,15 @@
 		<div id="inner" class="container-fluid">
 			<div class="body-paragraph">
 				<div class="container-fluid profile">
-					<p class="text-center">
-						Hello, I am an aspiring Software Engineer / Entrepreneur from Toronto.
-					</p>
+					<div class="profile-image">
+					</div>
+					<div class="profile-text">
+						<p class="text-center">
+							Hello, I am an aspiring Software Engineer / Entrepreneur from Toronto.
+						</p>
+					</div>
 				</div>
-				<div class="container pLanguage">
+				<div class="container-fluid pLanguage">
 					<div class="proficient">
 						<p class="title">Proficient in:</p>
 						<ul class="list-group skills">
