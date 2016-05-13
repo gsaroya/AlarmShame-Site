@@ -46,7 +46,7 @@
 								AlarmShame
 							</div>
 							<div class="myListSummary">
-								<p>An Android application that deletes your file and publically shames you if you were late from your alarm</p>
+								<p>An Python Script that deletes your file and publically shames you if you were late from your alarm</p>
 							</div>
 							<div class="outside-links">
 								<h4><a href="http://devpost.com/software/alarm-shaming" class="text-center">Alarm Shame</a></h4>

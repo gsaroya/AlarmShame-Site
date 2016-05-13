@@ -17,10 +17,12 @@
 					<div class="row">
 						<div class="myListText myListText col-sm-9 col-md-9 col-lg-9">
 							<div class="myListTitle">
-								Agile Test Engineer
+								Agile Test Engineer - Pivotal Labs
 							</div>
 							<div class="myListSummary">
-								<p>A pebble smart watch application that alerts the user when you are getting closer to your target destination.</p>
+								<p>Implemented exploratory testing methodologies to ensure quality products</p>
+								<p>Wrote Automation test cases on multiple platforms such as Android, iOS and Web</p>
+								<p>Actively participated in discussions about mobile app design and provided new ideas which was ultimately implemented</p>
 							</div>
 						</div>
 					</div>
@@ -32,7 +34,7 @@
 								Top 5 at Wearhacks 2016
 							</div>
 							<div class="myListSummary">
-								<p>A pebble smart watch application that alerts the user when you are getting closer to your target destination.</p>
+								<p>Designed and developed a pebble smart watch application that alerts the user when you are getting closer to your target destination.</p>
 							</div>
 						</div>
 					</div>
@@ -44,7 +46,7 @@
 								Google Games 2016 Participant
 							</div>
 							<div class="myListSummary">
-								<p>A pebble smart watch application that alerts the user when you are getting closer to your target destination.</p>
+								<p>Lead a team to participate in a series of challenges created by Google</p>
 							</div>
 						</div>
 					</div>
@@ -56,7 +58,7 @@
 								Google Code Jam 2016 Participant
 							</div>
 							<div class="myListSummary">
-								<p>A pebble smart watch application that alerts the user when you are getting closer to your target destination.</p>
+								<p>Solved coding challenges online that was created by Google</p>
 							</div>
 						</div>
 					</div>
