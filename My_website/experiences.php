@@ -28,6 +28,9 @@
 								<p>Actively participated in discussions about mobile app design and provided new ideas which was ultimately implemented</p>
 							</div>
 						</div>
+						<div class="myListLogo col-sm-3 col-md-3 col-lg-3">
+							<img src="img/Pivotal_TealOnWhite.png">
+						</div>
 					</div>
 				</div>
 				<div class="myListItem container-fluid">
@@ -42,6 +45,9 @@
 							<div class="myListSummary">
 								<p>Designed and developed a pebble smart watch application that alerts the user when you are getting closer to your target destination.</p>
 							</div>
+						</div>
+						<div class="myListLogo col-sm-3 col-md-3 col-lg-3">
+							<img src="img/WearHacks.png">
 						</div>
 					</div>
 				</div>
@@ -58,6 +64,9 @@
 								<p>Lead a team to participate in a series of challenges created by Google</p>
 							</div>
 						</div>
+						<div class="myListLogo col-sm-3 col-md-3 col-lg-3">
+							<img src="img/Googlelogo.png">
+						</div>
 					</div>
 				</div>
 				<div class="myListItem container-fluid">
@@ -72,6 +81,9 @@
 							<div class="myListSummary">
 								<p>Solved coding challenges online that was created by Google</p>
 							</div>
+						</div>
+						<div class="myListLogo col-sm-3 col-md-3 col-lg-3">
+							<img src="img/Googlelogo.png">
 						</div>
 					</div>
 				</div>
