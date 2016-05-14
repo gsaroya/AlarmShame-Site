@@ -80,6 +80,8 @@ div.myListTime{
 
 div.myList > div.myListItem > div.myListLogo{
 	float:right;
+	height: 100px;
+	width: 200px;
 }
 div.myList > div.myListItem > div.myListText{
 	float:left;
